@@ -47,17 +47,42 @@ const MOCK_YEARS = [
 ];
 
 const MOCK_POSTS = Array.from({ length: 15 }, (_, i) => ({
-  id: `post-${i}`,
+ id: `post-${i}`,
   title: `Car ${i + 1}`,
-  description: `This is a description for car ${i + 1}`,
+  slug: `car-${i + 1}`,
+  url: `/posts/car-${i + 1}`,
+  currency: {
+    iso3: "USD",
+    symbol: "$"
+  },
   price: 10000 + (i * 2000),
+  description: `This is a description for car ${i + 1}`,
+  uuid: `post-${i}-uuid`,
+  createdAt: new Date().toISOString(),
+  thumbnail: {
+    src: "/assets/img/no-car-photo.png",
+    alt: `Car ${i + 1}`
+  },
+  pictures: [],
   car: {
     brand: { uuid: "1", name: "Toyota" },
     model: { uuid: "m1", name: "Corolla" },
     year: 2023 - (i % 5),
     images: [],
+    mileage: 10000 + (i * 5000)
   },
-  createdAt: new Date().toISOString(),
+  geolocation: {
+    city: "Sample City",
+    state: "Sample State",
+    country: "Sample Country"
+  },
+  creator: {
+    uuid: "user-1",
+    name: "John Doe",
+    email: "john@example.com",
+    phone: "+1234567890",
+    avatar: "/assets/img/user-avatar.png"
+  },
 }));
 
 export default function RecentHome() {
@@ -249,11 +274,11 @@ export default function RecentHome() {
                             </div>
                         ) : (
                             <div className={style.boxItems}>
-                                {Array.from(resPosts?.data || []).map((item, i) => (
+                                {/* {Array.from(resPosts?.data || []).map((item, i) => (
                                     <React.Fragment key={i}>
                                         <ItemCar item={item} />
                                     </React.Fragment>
-                                ))}
+                                ))} */}
                             </div>
                         )}
                         <div>

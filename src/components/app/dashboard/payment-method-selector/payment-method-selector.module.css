@@ -1,0 +1,61 @@
+.paymentMethodList {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+.paymentMethodItem {
+  border-radius: 8px;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+  border: 1px solid #e6e6e6;
+
+}
+
+.paymentMethodIsChecked {
+  background-color: white;
+}
+
+.paymentMethodInfo {
+  display: flex;
+  flex-flow: column;
+}
+
+.paymentMethodInfo>span:first-child,
+.defultLabel,
+.newMPFormControl label {
+  color: #929292;
+  font-size: .6rem !important;
+}
+
+.paymentMethodInfo>span:last-child {
+  font-size: .7rem;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.setDefaultWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.deletePaymentMethod {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.paymentMethodIcon {
+  display: flex;
+  align-items: center;
+}
+
+.deletePaymentMethodIcon {
+  width: 14px;
+  fill: red;
+}

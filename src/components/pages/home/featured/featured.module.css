@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.boxTitle>h3 {
+    font-size: var(--size-title-card);
+    padding: var(--padding-title-card);
+}
+
+.box {
+    border: var(--border-card);
+    border-radius: var(--radius-card);
+    padding: 30px;
+    flex: 1 1 auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.panel {
+    min-width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.navPanel {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navPanelAnimation {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+}
+
+.navPanelAnimation>div {
+    width: 100%;
+    max-width: 100px;
+    height: 70px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: all ease .4s;
+    margin-bottom: 9px;
+    box-sizing: border-box;
+}
+
+.navPanelAnimation>.itemActive,
+.navPanelAnimation>div:hover {
+    border: 2px solid var(--primary-color);
+}
+
+.navPanelAnimation>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider {
+    overflow: hidden;
+    flex: 1 1 auto;
+}
+
+.slider>div {
+    height: 100%;
+}
+
+.boxSlide {
+    height: 100%;
+    width: 100%;
+}
+
+.boxImage {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+}
+
+.boxImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxImageObjectContain>img {
+    object-fit: contain;
+}
+
+.boxInfo {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.price {
+    color: #FF0000;
+    font-size: 1.3em;
+}
+
+.descriptionInfo {
+    color: white;
+    font-size: .9em;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.navButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.disabled {
+    opacity: 0;
+    cursor: auto;
+}

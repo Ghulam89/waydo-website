@@ -1,0 +1,274 @@
+.boxMaster {
+    display: none;
+}
+
+.containerView {
+    position: relative;
+}
+
+.containerViewButtons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 19px 29px 4px 29px;
+    gap: 5px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.containerViewButtons>button {
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #B6B8B9;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.containerViewButtons>button>svg {
+    position: relative;
+    top: -1px;
+}
+
+.containerViewButtons>button>span {
+    padding-left: 5px;
+}
+
+.boxView {
+    height: 533px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.boxView>button {
+    background-color: transparent;
+    border: none;
+}
+
+.boxView>div {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 12px;
+}
+
+.boxView>div,
+.boxView>div>div,
+.boxView>div>div>div,
+.boxView>div>div>div>ul,
+.boxView>div>div>div>ul>li>div {
+    height: 100% !important;
+}
+
+.cantPhoto {
+    position: absolute;
+    right: 29px;
+    bottom: 27px;
+    padding: 3px 12px;
+    border-radius: 18px;
+    background-color: #7070709a;
+    border: 1px solid #7070709a;
+    color: white;
+    font-size: .8em;
+}
+
+.buttonView {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.buttonViewL {
+    left: 40px;
+}
+
+.buttonViewR {
+    right: 40px;
+}
+
+.boxThumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxThumb>div {
+    height: 60px;
+    width: 100px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, .1);
+}
+
+.boxThumb>div {
+    height: 55px !important;
+    width: 100%;
+}
+
+.containerThumb {
+    padding-top: 38px;
+}
+
+.containerThumb li {
+    width: 120px !important;
+}
+
+.containerThumb li:first-child {
+    margin-left: 0 !important;
+}
+
+.containerThumb li:last-child {
+    margin-right: 0 !important;
+}
+
+
+.boxModalShare {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 315px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.headerModalShare {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerModalShare h2 {
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 22px;
+    color: #23262a;
+}
+
+.contentModalShare {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+}
+
+.boxSocialsModalShare {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxSocialLink>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxSocialLink>a>span {
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(58, 63, 71);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.boxSocialCopy {
+    display: flex;
+    gap: 8px;
+}
+
+.boxSocialInputCopy {
+    flex: 1 1 auto;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    color: rgb(35, 38, 42);
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.boxSocialInputCopy>input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 13px;
+}
+
+.boxSocialInputCopy>input:focus {
+    outline: none;
+}
+
+.buttonSocialCopy {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    line-height: 1.75;
+    min-width: 64px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 38, 42);
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+    text-transform: capitalize;
+    width: 82px;
+    height: 48px;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 12px 24px;
+}
+
+.closeShare {
+    cursor: pointer;
+}

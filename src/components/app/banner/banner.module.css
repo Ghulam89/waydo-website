@@ -1,0 +1,89 @@
+.boxBanner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.boxBannerImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner1 {
+    width: 100%;
+    height: 257px;
+    border-radius: 21px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.banner1>.boxBannerImg {
+    border-radius: 21px;
+}
+
+.banner2,
+.banner4 {
+    max-width: 728px;
+    min-width: 728px;
+    width: 100%;
+    height: 89px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner4>img,
+.banner2>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner3 {
+    height: 100%;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.banner3>img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner3>.boxBannerImg {
+    border-radius: 10px;
+}
+
+.boxFilter {
+    width: 90%;
+    position: relative;
+    bottom: -45px;
+    z-index: 500;
+}
+
+.bannerVertical1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.bannerVertical2 {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.boxImg {
+    height: 100%;
+    width: 100%;
+}
+
+.boxImg>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

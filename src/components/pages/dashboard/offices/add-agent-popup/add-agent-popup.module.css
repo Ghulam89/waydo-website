@@ -1,0 +1,322 @@
+.container {
+  background-color: white;
+  width: 95%;
+  min-width: 510px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  max-height: 97vh;
+}
+
+.boxClose {
+  cursor: pointer;
+}
+
+.boxClose>svg {
+  font-size: 1.125rem;
+}
+
+.header,
+.footer,
+.content {
+  padding: 16px 30px;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
+  align-items: end;
+  padding-bottom: 5px;
+}
+
+.officeForm {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  padding: 0 0 0 71px;
+}
+
+.officeForm span {
+  font-size: 0.75rem;
+}
+
+.field>input {
+  border: 1px solid #98A0B3;
+}
+
+.officeForm .field>div {
+  width: 100%;
+}
+
+.officeForm>.field .textField div.MuiInputBase-root {
+  border-radius: 20px;
+  max-height: 30px;
+  background-color: red;
+}
+
+.officeForm>.field .textField div.MuiInputBase-root input {
+  font-size: 0.875rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.map {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.map .mapHeader {
+  font-weight: 300;
+  padding: 0 40px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.map .mapContent {
+  height: 216px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.footer {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.addressTypeHeader {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.addressTypeOptions {
+  display: flex;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.addressTypeOptions>button.addressTypeOptionActive {
+  background-color: black;
+  color: white;
+}
+
+.addressTypeOptions>button {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 16px 40px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+div.addressTypeAsDefault>div.MuiFormControlLabel-root span.MuiTypography-root {
+  font-size: 14px !important;
+}
+
+.newOfficeHeader {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  align-items: center;
+}
+
+.newOfficeHeaderIcon {
+  background-color: #15223f;
+  border-radius: 50%;
+  padding: 3px;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.newOfficeHeaderTitles>h3,
+.newOfficeHeaderTitles>h4 {
+  font-family: system-ui;
+  font-weight: lighter;
+}
+
+.newOfficeHeaderTitles>span {
+  font-size: 0.75rem;
+}
+
+.captureInput label {
+  border: 1px solid #98A0B3;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.captureInput span {
+  font-size: 0.875rem;
+}
+
+.captureInput svg {
+  color: #15223f;
+  font-size: 18px;
+}
+
+.officeModalInput {
+  border: 1px solid #98A0B3;
+  border-radius: 4px;
+  padding: 8px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+}
+
+.agentSubmitArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkboxControl {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 13px;
+}
+
+.colaboratosTable {
+  font-size: 0.75rem;
+}
+
+.colaboratosTable>div.colaboratorsTableHeader,
+.colaboratosTableBody>div {
+  display: grid;
+  grid-template-columns: 180px 40px 55px 70px 40px;
+  gap: 16px;
+  align-items: center;
+  height: 55px;
+}
+
+.colaboratosTableBody>div {
+  border-top: 1px solid #DBE5ED;
+}
+
+.colaboratosTableBody>div:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
+.colaboratorInfo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.colaboratorInfo {
+  padding-left: 10px;
+}
+
+.colaboratorAvatar {
+  height: 25px;
+  width: 25px;
+  min-height: 25px;
+  min-width: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.colaboratorInfo>div:last-child {
+  display: inherit;
+  flex-flow: column;
+}
+
+.colaboratorsTableHeader .field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.colaboratorsTableHeader .field svg {
+  position: absolute;
+  right: 10px;
+  width: 12px;
+}
+
+.colaboratorsTableHeader .field svg path {
+  fill: #98A0B3;
+}
+
+.formSelect {
+  background: none;
+  border: none;
+  font-size: 0.688rem;
+}
+
+.colaboratorActions {
+  display: flex;
+  gap: 3px;
+}
+
+.colaboratorActions svg {
+  cursor: pointer;
+}
+
+.officeColaborators>.newOfficeHeaderTitles>h4 {
+  border-top: 1px solid #DBE5ED;
+  border-bottom: 1px solid #DBE5ED;
+  padding: 10px 0;
+  margin: 20px 0 5px;
+}
+
+.colaboratorsContent {
+  display: flex;
+  overflow: hidden;
+}
+
+.colaboratorsContent>div {
+  min-width: 100%;
+}
+
+.colaboratorsEdit {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.colaboratorsEdit .colaboratorAvatar {
+  width: 45px;
+  height: 45px;
+}
+
+.colaboratorEditForm {
+  flex: 1;
+  padding-right: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.colaboratorEditForm>div:first-child,
+.colaboratorSelectors {
+  display: flex;
+  gap: 10px;
+}
+
+.colaboratorSelect {
+  padding: 5px 2px 5px 5px;
+  border: 1px solid #DBE5ED;
+  border-radius: 6px;
+}
+
+.colaboratorEditSubmit {
+  display: flex;
+  justify-content: end;
+}
+
+.colaboratorEditSubmit button {
+  font-size: 12px;
+  padding: 10px 20px;
+  font-weight: lighter;
+}

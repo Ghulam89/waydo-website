@@ -1,0 +1,85 @@
+.container {
+    overflow: hidden;
+    width: 340px;
+    max-height: 308px;
+    transition: box-shadow 0.25s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 24px 16px;
+}
+
+.boxList {
+    flex: 1 1 auto;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.boxList>.boxMulti {
+    width: 100%;
+}
+
+.boxList>.boxMulti>fieldset {
+    display: none;
+}
+
+.boxList>.boxMulti select {
+    width: 100%;
+    border: 0;
+    min-height: 100%;
+    padding: 16.5px 14px !important;
+}
+
+.boxList::-webkit-scrollbar,
+.boxList>.boxMulti select::-webkit-scrollbar {
+    width: 5;
+}
+
+.boxList::-webkit-scrollbar-track,
+.boxList>.boxMulti select::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.boxList::-webkit-scrollbar-thumb,
+.boxList>.boxMulti select::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.boxList::-webkit-scrollbar-thumb:hover,
+.boxList>.boxMulti select::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+.item {
+    height: 44px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(247, 247, 248);
+    cursor: pointer;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+
+.item:hover {
+    color: rgb(18, 112, 236);
+    background-color: rgb(247, 247, 248);
+}
+
+.itemActive {
+    font-weight: 700;
+}
+
+.option {
+    padding: 8px 10px;
+    text-align: center;
+    font-size: .9em;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,63 @@
+.phone {
+  display: flex;
+  gap: 30px;
+  flex-flow: column;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  flex-flow: column;
+}
+
+.addPhone {
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 22px 24px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.editPhoneArea {
+  padding: 22px 24px;
+  border-radius: 8px;
+  display: none;
+  /* justify-content: space-between;
+  align-items: center; */
+  flex-flow: column;
+  background-color: #F7F7F8;
+}
+
+.editHeader {
+  padding-bottom: 22px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editHeader svg {
+  cursor: pointer;
+}
+
+.savePhoneButton {
+  display: flex;
+  justify-content: end;
+  margin-top: 27px;
+}
+
+.showArea {
+  display: flex;
+}
+
+.editField>div {
+  width: 100%;
+}
+
+.aditionalPhoneNumbers {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}

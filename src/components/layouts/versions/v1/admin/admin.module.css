@@ -1,0 +1,27 @@
+.dashboardContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #F5F7F9;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  /* padding-bottom: 50px; */
+}
+
+.dashboardContent {
+  margin-left: 66px;
+  display: flex;
+  flex-flow: column;
+  width: calc(100% - 66px);
+  flex: 1;
+  align-items: center;
+  overflow: auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.dashboardContent>div {
+  width: 100%;
+  max-width: 1438px;
+  margin: 16px 0;
+}

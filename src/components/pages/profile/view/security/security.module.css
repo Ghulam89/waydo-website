@@ -1,0 +1,68 @@
+.security {
+  display: flex;
+  flex-flow: column;
+  gap: 50px;
+}
+
+.security .header {
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  gap: 50px;
+}
+
+.securityForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.formControl {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.formControl>label {
+  font-weight: bold;
+}
+
+.disableAccountBtn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.disableAccountBtn>svg {
+  width: 16px;
+}
+
+.twoFactorAuth .content {
+  gap: 32px;
+}
+
+.twoFactorAuth .header {
+  margin-bottom: 40px;
+}
+
+
+.twoFactorAuth .content,
+.twoFactorAuth .content div {
+  align-items: center;
+  text-align: center;
+}
+
+.twoFactorAuth .twoFactorIcon svg {
+  height: 25px;
+  width: auto;
+  overflow: visible;
+}
+
+.twoFactorAuth .title h3 {
+  font-weight: 400;
+  margin-bottom: 12px;
+}

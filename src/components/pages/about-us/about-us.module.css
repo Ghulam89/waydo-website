@@ -1,0 +1,30 @@
+.aboutus {
+  text-align: justify;
+  padding: 40px 15px;
+}
+
+.staticContent p {
+  font-size: 11pt;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.staticContent>h1 {
+  padding: 25px 0;
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12pt;
+  line-height: normal;
+  color: var(--color-grease);
+}
+
+.staticContent>h2 {
+  padding: 40px 0 30px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12pt;
+  line-height: normal;
+  color: var(--color-grease);
+}

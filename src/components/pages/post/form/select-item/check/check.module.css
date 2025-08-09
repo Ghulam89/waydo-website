@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    align-items: flex-start;
+    padding: 6px 8px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    transition: background-color .2s;
+    color: #2b2d2e;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all ease .2s;
+}
+
+.box:hover {
+    background-color: #EEF0F1;
+}
+
+.box>input {
+    position: relative;
+    top: 1px;
+
+}
+
+.box>span {
+    font-size: 1em;
+    padding-left: 5px;
+}

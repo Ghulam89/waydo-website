@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.boxTitle>h3 {
+    font-size: var(--size-title-card);
+    padding: var(--padding-title-card);
+}
+
+.box {
+    padding: 30px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollableNavContainer {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scrollButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .4s;
+}
+
+.scrollButton>svg {
+    height: 30px;
+    width: 30px;
+}
+
+.scrollButtonBack {
+    transform: rotate(180deg);
+}
+
+.scrollableNav {
+    display: flex;
+    overflow-x: auto;
+    flex: 1 1 auto;
+    scrollbar-width: none;
+}
+
+.scrollableNav::-webkit-scrollbar {
+    display: none;
+}
+
+.navItem {
+    flex: 0 0 auto;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: .9em;
+}
+
+.navItem.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.boxTable {
+    flex: 1 1 auto;
+    padding-top: 29.76px;
+    min-height: 716px;
+}
+
+.boxItems {
+    display: grid;
+    grid-auto-rows: 12.8rem;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 10px;
+    flex: 1 1 auto;
+    padding-right: 30px;
+}
+
+.contentTable {
+    display: flex;
+}
+
+.boxEmpty {
+    flex: 1 1 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.boxEmptySvg {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.textEmptySvg>p {
+    color: rgba(0, 0, 0, .6);
+}

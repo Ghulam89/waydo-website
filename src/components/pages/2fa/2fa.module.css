@@ -1,0 +1,203 @@
+.twoFactor {
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+  color: #15223F;
+  padding: 80px 0px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "ProximaNova", sans-serif;
+  /* font-size: 24px; */
+}
+
+.twoFactor h2 {
+  font-weight: 800;
+}
+
+/* .twoFactor h3 {
+  font-weight: 24px;
+} */
+
+.twoFactor .header {
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.lineThrough {
+  border-top: 1px solid black;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.twoFactor .wizzardButtons {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.twoFactor .wizzardButtons .buttons {
+  display: flex;
+  gap: 45px;
+}
+
+.twoFactor .wizzardButtons .buttons>div {
+  font-weight: bold;
+  border-radius: 50%;
+  min-width: 57px;
+  min-height: 57px;
+  max-height: 57px;
+  max-width: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #15223F;
+  cursor: pointer;
+  background: white;
+}
+
+.twoFactor .wizzardButtons .buttons>div.active {
+  background-color: #15223F;
+  color: white;
+}
+
+.downloadCodesContent {
+  margin-top: 20px;
+}
+
+.downloadCodesContent>h2 {
+  margin-bottom: 12px;
+}
+
+.downloadCodesContent .codes {
+  background-color: #F6F6F6;
+  padding: 60px 80px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-flow: wrap;
+  max-width: 470px;
+  margin: 50px auto 20px;
+}
+
+.downloadCodesContent .codes>h3 {
+  width: 215px;
+}
+
+.downloadCodesContent .codes>h3>strong {
+  font-weight: 800;
+}
+
+.downloadCodesContent .codes>h3>strong:first-child {
+  margin-right: 30px;
+  color: red;
+}
+
+.downloadButton {
+  max-width: 630px;
+  display: flex;
+  justify-content: end;
+  margin: 0 auto;
+}
+
+.warningBox {
+  display: flex;
+  border: 2px solid #15223F;
+  border-radius: 10px;
+  padding: 20px 100px 20px 50px;
+  gap: 30px;
+  /* font-size: 20px; */
+}
+
+.warningBox>div:first-child svg {
+  font-size: 26px;
+}
+
+/* .warningBox h3 {
+  font-size: 24px;
+} */
+
+.footerOptions {
+  display: flex;
+  gap: 18px;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 25px;
+}
+
+/* .textField { */
+/* margin-top: 10px; */
+/* } */
+
+.textField>div.MuiInputBase-root {
+  border-radius: 8px !important;
+}
+
+.twoFactor .content {
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+}
+
+.titleAndText h3 {
+  margin-bottom: 10px;
+}
+
+.twoFactorQR {
+  border: 2px solid black;
+  height: 245px;
+  width: 245px;
+  border-radius: 25px;
+  padding: 25px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twoFactorQR .qr {
+  width: 100%;
+  height: 100%;
+}
+
+.configurationOptions {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  /* gap: 12px; */
+}
+
+.configurationOptions .setAsDefaultLabel {
+  gap: 10px;
+}
+
+.configurationOptions .setAsDefaultLabel span {
+  font-weight: bold !important;
+  font-family: "ProximaNova", sans-serif !important;
+  /* font-size: 24px !important; */
+}
+
+.codeWrap {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.codeStatusIcon {
+  font-size: 35px;
+  display: flex;
+  height: 56px;
+  align-items: center;
+}
+
+.configurationKey {
+  color: #00b3ff;
+  text-decoration: underline;
+  font-weight: 800;
+  cursor: pointer;
+}

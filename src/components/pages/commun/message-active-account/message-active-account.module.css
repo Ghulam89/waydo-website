@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500;
+    min-width: 500;
+}
+
+.boxLogo {
+    width: 150px;
+    width: 150px
+}
+
+.title {
+    font-size: 1.6em;
+    padding-bottom: 15px;
+}
+
+.description {
+    color: rgba(0, 0, 0, .7);
+    line-height: 22px;
+}
+
+.button {
+    margin-top: 40px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}

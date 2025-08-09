@@ -1,0 +1,74 @@
+.newMPFormControl {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+.newMPFormControl input {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.newMPFormControl label {
+  color: #929292;
+  font-size: .6rem !important;
+}
+
+.newMPFormControl>div {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.newMPFormControl.creditcard input {
+  padding-right: 49px;
+}
+
+.newMPFormControl input::-webkit-outer-spin-button,
+.newMPFormControl input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.newMPFormControl input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.newMethodForm>div:first-child {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  margin: 16px 0 25px;
+}
+
+.cardExpirationWrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.cardExpirationWrapper>div {
+  flex: 1;
+}
+
+.walletNewPaymentMethod {
+  overflow: hidden;
+}
+
+.addCreditCardButton {
+  display: flex;
+  justify-content: center;
+}
+
+.addCreditCardButton>button {
+  width: 130px;
+}
+
+
+
+.cardIssuerLogo {
+  position: absolute;
+  right: 5px;
+}

@@ -1,0 +1,22 @@
+.container {
+    overflow: hidden;
+    width: 340px;
+    transition: box-shadow 0.25s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.boxList {
+    flex: 1 1 auto;
+    padding: 24px 16px;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

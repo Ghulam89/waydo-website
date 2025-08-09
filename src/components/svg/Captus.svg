@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217.369" height="233.361" viewBox="0 0 217.369 233.361">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4294ff"/>
+      <stop offset="1" stop-color="#06bb00"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_651" data-name="Rectángulo 651" width="217" height="233" transform="translate(0.371 0.361)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_485" data-name="Trazado 485" d="M82.707,45.822V135.16H66.2V103.2a18.1,18.1,0,0,0-36.2,0V153.25a18.149,18.149,0,0,0,18.1,18.092H82.707v35.384h-8.33a5.019,5.019,0,0,0-.118,10.036h74.012a5.018,5.018,0,0,0-.118-10.034h-7.787V116.9h33.143a14.34,14.34,0,0,0,14.3-14.3V63.057a14.3,14.3,0,0,0-28.6,0V88.311H140.365V45.822a28.829,28.829,0,0,0-57.658,0" transform="translate(-30 -17)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_611" data-name="Grupo 611" transform="translate(-0.371 -0.361)">
+    <g id="Grupo_606" data-name="Grupo 606">
+      <g id="Grupo_605" data-name="Grupo 605" clip-path="url(#clip-path)">
+        <path id="Trazado_484" data-name="Trazado 484" d="M83.9,0h0A83.9,83.9,0,1,1,0,83.9,83.9,83.9,0,0,1,83.9,0" fill="#f6f7f8" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Grupo_608" data-name="Grupo 608" transform="translate(59.929 33.96)">
+      <g id="Grupo_607" data-name="Grupo 607" clip-path="url(#clip-path-2)">
+        <rect id="Rectángulo_652" data-name="Rectángulo 652" width="157" height="199" transform="translate(0.441 0.402)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Grupo_610" data-name="Grupo 610">
+      <g id="Grupo_609" data-name="Grupo 609" clip-path="url(#clip-path)">
+        <path id="Trazado_486" data-name="Trazado 486" d="M40,13h0a4,4,0,1,1-4,4,3.994,3.994,0,0,1,4-4" transform="translate(35.915 12.969)" fill="#4294ff" fill-rule="evenodd"/>
+        <path id="Trazado_487" data-name="Trazado 487" d="M94,18h0a2,2,0,1,1-2,2,2,2,0,0,1,2-2" transform="translate(91.782 17.957)" fill="#4294ff" fill-rule="evenodd"/>
+        <path id="Trazado_488" data-name="Trazado 488" d="M17,46h0a2,2,0,1,1-2,2,2,2,0,0,1,2-2" transform="translate(14.964 45.891)" fill="#4294ff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

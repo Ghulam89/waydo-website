@@ -1,0 +1,45 @@
+.boxInfo {
+    padding-bottom: 40px;
+}
+
+.title {
+    text-align: center;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.formGroup {
+    padding-bottom: 20px;
+}
+
+.box {
+    min-width: 380px;
+    max-width: 380px;
+    overflow: hidden;
+}
+
+.boxButtons {
+    padding-top: 20px;
+}
+
+
+.boxInfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.boxInfo>div {
+    display: flex;
+    justify-content: center;
+}
+
+.boxInfo>div:first-child {
+    padding-bottom: 15px;
+}
+
+.boxInfo>div>p {
+    text-align: center;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

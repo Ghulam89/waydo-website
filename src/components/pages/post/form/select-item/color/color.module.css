@@ -1,0 +1,38 @@
+.box {
+    border-radius: 22px;
+    font-size: 1em;
+    padding: 8px 18px;
+    transition: all ease .4s;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.boxColor {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid #cfcfcf;
+}
+
+.executeBox {
+    position: relative;
+    cursor: pointer;
+    border-radius: 22px;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    transition: all ease .4s;
+    transition: all ease .4s;
+    border: 1px solid var(--color-border-no-active) !important;
+}
+
+.executeBox:hover,
+.executeBoxActive {
+    border: 1px solid var(--color-border-active) !important;
+    background-color: var(--background-selected);
+    font-weight: 600;
+}

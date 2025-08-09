@@ -1,0 +1,204 @@
+.chatReceiverProfile {
+  display: flex;
+  max-width: 365px;
+  width: 0;
+  transition: width .3s;
+  -webkit-transition: width .3s;
+  cursor: pointer;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.chatChannelProfileContent {
+  min-width: 365px;
+  display: flex;
+  flex-flow: column;
+  padding: 40px 0px 40px 40px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.profileBasicInfo {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatProfileAvatar {
+  /* display: flex;
+  justify-content: center;*/
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.chatProfileAvatar>img {
+  border-radius: 50%;
+}
+
+.chatUserVerified {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.profileBasicInfo>div:last-child h2 {
+  margin: 10px 0 3px;
+}
+
+.profileBasicInfo span {
+  font-size: 0.813rem;
+}
+
+.searchHistory {
+  margin-top: 50px;
+}
+
+.searchHistory>h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.searchHistory .historyItems {
+  border-top: 1px solid #dbe5ed;
+  padding: 20px 0;
+}
+
+.searchHistory .historyItems:nth-child(3) {
+  padding-bottom: 0;
+}
+
+.searchHistory .historyItems>span,
+.announceCheckQty span,
+.announceCheckQty strong {
+  font-size: 0.875rem;
+}
+
+.historyItems:last-child {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+}
+
+/* .announceCheckQty {} */
+
+.historyBrands,
+.historyCarTypes {
+  display: flex;
+  gap: 20px;
+  padding: 16px 20px 0;
+}
+
+.historyCarTypes {
+  padding: 0px 20px 0;
+}
+
+.historyBrands>div>svg {
+  height: 25px;
+  width: 40px;
+}
+
+.historyCarTypes>div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5px; */
+}
+
+.historyCarTypes>div>img {
+  object-fit: contain;
+}
+
+.historyCarTypes span {
+  font-size: 0.75rem;
+}
+
+.historyCarTypes>div:nth-child(2)>span {
+  position: relative;
+  top: -15px;
+}
+
+.priceDetails {
+  margin-top: 16px;
+}
+
+.interestChartWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.interestChartWrapper>.interestPoint:nth-child(2)>div {
+  background-color: #00d1f1;
+}
+
+.interestChartWrapper>.interestPoint:nth-child(3)>div {
+  background-color: #7b86a4;
+}
+
+.interestChartWrapper>.interestPoint:last-child>div {
+  background-color: #ff4600;
+}
+
+.interestPoint {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 1;
+}
+
+.interestPoint>div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+}
+
+.interestPoint span {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.interestPoint svg {
+  font-size: 17px;
+}
+
+.interestsBars {
+  top: 11px;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.interestsBars>div {
+  width: 100%;
+}
+
+.interestsBars>div:first-child {
+  height: 4px;
+  background-color: #dbe5ed;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.interestsBars>div:last-child {
+  height: 10px;
+  background: linear-gradient(to right, #00d1f1, #7b86a4, #ff4600);
+  width: 80%;
+  border-radius: 10px;
+  top: -7px;
+  position: relative;
+}

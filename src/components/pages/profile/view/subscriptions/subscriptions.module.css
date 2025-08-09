@@ -1,0 +1,24 @@
+.contentItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.contentPeriod {
+  padding-bottom: 40px;
+}
+
+.boxPeriod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxPeriod>span {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .5);
+}
+
+.boxPeriod>span.active {
+  color: black;
+}

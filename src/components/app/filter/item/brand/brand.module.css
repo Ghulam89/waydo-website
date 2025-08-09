@@ -1,0 +1,73 @@
+.container {
+    overflow: hidden;
+    width: 340px;
+    height: 308px;
+    transition: box-shadow 0.25s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+    background-color: white;
+    color: black;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.boxList {
+    flex: 1 1 auto;
+    padding: 24px 16px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin-bottom: 10px;
+    justify-content: space-around;
+    cursor: pointer;
+    width: max-content;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.item>div {
+    padding: 10px 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-box-align: center;
+    align-items: center;
+    border-color: rgb(224, 225, 227);
+    font-size: .8em;
+}
+
+.itemActive {
+    border-color: rgb(137, 184, 246);
+    line-height: 1;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.boxButton {
+    border-top: 1px solid rgb(224, 225, 227);
+    padding: 16px;
+}
+
+.boxButton>button {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    height: 48px;
+    min-height: 36px;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}

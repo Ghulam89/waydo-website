@@ -1,0 +1,139 @@
+.chatBubbleButton {
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  width: 100% !important;
+  margin-bottom: 0px !important;
+  bottom: 20px;
+  right: 50px;
+}
+
+.chatBubbleButton>svg {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.chatBubbleButton>svg:hover,
+.chatBubbleButtonActive>svg {
+  opacity: 1;
+}
+
+.modalWrapper {
+  position: relative;
+}
+
+.modalContent {
+  width: 400px;
+  position: fixed;
+  right: 0px;
+  bottom: 90px;
+  border: 1px solid #DBE5ED;
+  background-color: #F9FAFC;
+  border-radius: 20px;
+  max-height: 600px;
+  box-shadow: 0 3px 6px #00000029;
+  color: black;
+  display: flex;
+  overflow: hidden;
+}
+
+.modalContent>div {
+  -webkit-transition: margin-left .2s;
+  transition: margin-left .2s;
+  min-width: 100%;
+  /* display: flex;
+  flex-flow: column; */
+}
+
+.modalSingleChat>div {
+  height: 100%;
+}
+
+.clientProfileOpen {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: calc(100% - 94px);
+  overflow: overflow;
+  padding-bottom: 30px;
+}
+
+.modalHeader {
+  background-color: #F4F5F8;
+  border-bottom: 1px solid #DBE5ED;
+  padding: 16px 16px 20px 20px;
+  color: #7b8793;
+}
+
+.chatModalClose {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.chatModalClose>svg {
+  color: #7b8793;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+
+.modalHeaderContent>div {
+  margin-top: 0;
+}
+
+.chatModalContent {
+  padding: 20px;
+  height: calc(100% - 166px);
+  overflow: hidden;
+}
+
+.chatModalContent>div {
+  height: 100%;
+}
+
+.chatModalContent>div>div:last-child {
+  height: calc(100% - 95px);
+}
+
+.secondHeader {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  color: #4b5155;
+}
+
+.secondHeaderTItles>h4 {
+  color: #4b5155;
+}
+
+.secondHeaderTItles>strong {
+  font-size: 0.68rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #7b8793;
+}
+
+.secondHeaderTItles>strong>svg {
+  font-size: .875rem;
+  color: #7b8793;
+}
+
+.secondHeaderContent {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.secondHeaderContent img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.modalChatProfile>.modalHeader {
+  padding: 10px 20px;
+}

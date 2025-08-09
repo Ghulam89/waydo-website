@@ -1,0 +1,71 @@
+.quickDetails {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.titleArea {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DBE5ED;
+  margin: 0 60px 20px;
+}
+
+.titleArea>h1 {
+  font-weight: lighter;
+  font-family: system-ui;
+  font-size: 1.8rem;
+}
+
+.homeAnnounces .items,
+.officesList {
+  display: flex;
+  gap: 18px;
+  padding: 0 0 10px 5px;
+}
+
+.quickDetails .titleArea {
+  width: 100%;
+  margin: 0;
+}
+
+.quickDetailItems {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.quickDetailItems>div {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  gap: 10px;
+  flex: 1;
+}
+
+.quickDetailItems>div:not(.quickDetailItems > div:last-child) {
+  border-bottom: 1px solid #F1F1F3;
+}
+
+.quickDetailItems .itemIcon {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quickDetailItems .itemIcon svg {
+  width: 20px;
+}
+
+.quickDetailItems .itemName {
+  color: #43425D;
+  flex: 1;
+}
+
+.quickDetailItems .itemSubtitle {
+  font-size: 0.875rem;
+  color: #b5b6bb;
+}

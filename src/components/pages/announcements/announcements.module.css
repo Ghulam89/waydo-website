@@ -1,0 +1,180 @@
+.announcementsContainer {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.boxTop {
+    padding-bottom: 24.61px;
+    margin-bottom: 19.37px;
+    border-bottom: 1px solid #98A0B3;
+}
+
+.boxTitle {
+    padding-bottom: 15px;
+}
+
+.title {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.boxTabList {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 12px;
+}
+
+.list {
+    border: 1px solid #707070;
+    border-radius: 21px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: .75em;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    color: #15223f;
+    transition: all ease .4s;
+}
+
+.list:hover,
+.listActive {
+    color: white;
+    background-color: #15223F;
+}
+
+.containerVerify {
+    display: flex;
+    align-items: center;
+    background-color: #F5F9FE;
+    padding-right: 15px;
+    border-radius: 13px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.boxVerifyIcon {
+    background-color: #E7F0FD;
+    width: 75px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxVerifyIcon>svg {
+    height: 40px;
+    width: 40px;
+}
+
+.boxInfoVerify {
+    padding-left: 35.06px;
+    flex: 1 1 auto;
+}
+
+.boxInfoVerify>h5 {
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-bottom: 6px;
+}
+
+.boxInfoVerify>p {
+    font-weight: 400;
+    font-size: .9em;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, .7);
+}
+
+.buttonStart {
+    background-color: white;
+    border: 1px solid #bdbebf;
+    color: #232f4a;
+    border-radius: 8px;
+    padding: 12px 35px;
+    cursor: pointer;
+}
+
+.body .empty {
+    display: flex;
+    padding: 54px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items>div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.body .announcementItemsWrapper {
+    display: flex;
+    gap: 32px;
+    padding: 32px 0 54px;
+}
+
+.body .announcementItemsWrapper .content {
+    flex: 1;
+}
+
+.description {
+    font-size: 1.5em;
+    color: #15223F;
+    padding: 15px 0;
+}
+
+.advertiseNowButton {
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 13px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.extraContainer {
+    border-radius: 21px;
+    width: 300px;
+    height: 250px;
+}
+
+.actions {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.actions>div {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-right: 1px solid #d5d5d5;
+    gap: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.actions>div:first-child {
+    padding-left: 0;
+}
+
+.actions>div:last-child {
+    border-right: none;
+}
+
+.actions>div.actionAvailable {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.pagination {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

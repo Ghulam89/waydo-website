@@ -1,0 +1,3 @@
+interface TwoFactorSliceI {
+  mnemonic: string[]
+};

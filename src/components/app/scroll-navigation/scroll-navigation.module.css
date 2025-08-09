@@ -1,0 +1,42 @@
+.navigationWrapper {
+  display: flex;
+}
+
+.navigationWrapper .navigationLeft,
+.navigationWrapper .navigationRight {
+  display: inherit;
+  align-items: center;
+}
+
+.navigationWrapper .navigationContent {
+  flex: 1;
+  overflow: scroll;
+  scrollbar-width: none;
+  display: flex;
+  /* gap: 18px; */
+  padding: 0 0 10px 5px;
+}
+
+.navigationWrapper .navigationContent::-webkit-scrollbar {
+  display: none;
+}
+
+.navigationLeft,
+.navigationRight {
+  width: 60px;
+  justify-content: center;
+}
+
+.navigationLeft>button,
+.navigationRight>button {
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navigationLeft>button>svg,
+.navigationRight>button>svg {
+  color: #DBE5ED;
+  font-size: 35px;
+}

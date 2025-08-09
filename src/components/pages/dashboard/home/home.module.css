@@ -1,0 +1,50 @@
+.dashboardHome {
+  display: flex;
+  flex-flow: column;
+  gap: 18px;
+}
+
+.dashboardHome>div:first-child {
+  display: inherit;
+  gap: inherit;
+}
+
+.homeAnnounces {
+  flex: 1;
+  display: inherit;
+  flex-flow: column;
+  max-width: calc(100% - 418px);
+}
+
+.homeOffices,
+.homeAnnounces {
+  padding: 25px 0;
+}
+
+.homeQuickDetails {
+  padding: 25px;
+}
+
+.homeQuickDetails {
+  width: 400px;
+}
+
+.titleArea {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DBE5ED;
+  width: calc(100% - 120px);
+  margin: 0 60px 20px;
+}
+
+.titleArea>h1 {
+  font-weight: lighter;
+  font-family: system-ui;
+  font-size: 1.8rem;
+}
+
+.homeAnnounces .items,
+.officesList {
+  display: flex;
+  gap: 18px;
+  padding: 0 0 10px 5px;
+}

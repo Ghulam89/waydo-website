@@ -1,0 +1,57 @@
+.component {
+    padding: 25px 34.75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 62.71px;
+}
+
+.boxInfo {
+    padding-bottom: 40px;
+}
+
+.title {
+    text-align: center;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.formGroup {
+    padding-bottom: 20px;
+}
+
+.box {
+    min-width: 380px;
+    max-width: 380px;
+}
+
+.boxButtons {
+    padding-top: 20px;
+}
+
+
+.boxInfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.boxInfo>div:first-child {
+    padding-bottom: 40px;
+}
+
+.boxInfo>div:first-child>p {
+    text-align: center;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.link {
+    font-weight: 600;
+    color: red !important;
+}

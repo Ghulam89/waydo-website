@@ -1,0 +1,176 @@
+.verificationUserID {
+  padding-top: 20px;
+  min-width: 470px;
+  color: #757575;
+  max-width: 520px;
+}
+
+.verificationUserID .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verificationUserID h3,
+.verificationUserID strong,
+.verificationUserID svg {
+  color: #15223F
+}
+
+.verificationUserID .body {
+  padding: 20px 0;
+}
+
+.content {
+  border-top: 1px solid #EFEFEF;
+  margin-top: 25px;
+}
+
+.verificationUserID .footer {
+  padding: 20px 0;
+  border-top: 1px solid #EFEFEF;
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.verificationUserID .footer>div {
+  gap: 16px;
+  display: flex;
+}
+
+.boxClose {
+  color: #CBCBCB !important;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.appDownloadBox {
+  background: #F7F7F8;
+  padding: 25px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appDownloadBox.visible {
+  display: flex;
+}
+
+.appDownloadBox>div:first-child {
+  width: 170px;
+}
+
+.appDownloadBox .qr {
+  width: 70px;
+  height: 70px;
+}
+
+.appDownloadBox>div:last-child {
+  display: flex;
+  gap: 36px;
+}
+
+.appDownloadBox>div:last-child>div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.progressBars {
+  display: flex;
+  gap: 20px;
+  height: 4px;
+  min-height: 4px;
+  margin: 25px 0;
+}
+
+.progressBars>div {
+  background-color: #E0E1E3;
+  height: inherit;
+  border-radius: 50px;
+  flex: 1;
+  height: 5px;
+  overflow: hidden;
+}
+
+.progressBarsFill {
+  height: 100%;
+  background-color: red;
+  width: 50%;
+}
+
+.docTypeCard {
+  border: 1px solid #E0E1E3;
+  border-radius: 8px;
+  display: flex;
+  padding: 11px 32px 11px 11px;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.docTypeCard.active {
+  border: 1px solid #15223F;
+}
+
+.docTypeCard>div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E4E5E8;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.docTypeCard>div:nth-child(2) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.docTypeCard>div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.idTypeSelector>div:last-child {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  margin: 30px 0 20px;
+}
+
+.cardUnchecked {
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  border: 2px solid #15223F;
+  box-sizing: border-box;
+}
+
+.drawerTitle {
+  display: flex;
+  margin: 27px 0 20px;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.drawerTitle>svg {
+  transition: transform .3s;
+  -webkit-transition: transform .3s;
+}
+
+.drawerTitle.active>svg {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.verificationDescription {
+  display: flex;
+  flex-flow: column;
+  gap: 13px;
+}

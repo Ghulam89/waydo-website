@@ -1,0 +1,39 @@
+.boxInput {
+    display: flex;
+    border: 1px solid #707070;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all ease .4s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.boxInputFocus {
+    border: 1px solid var(--primary-color);
+}
+
+.input {
+    flex: 1 1 auto;
+    border: none;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 20px 25px;
+}
+
+.input::placeholder {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.boxModePassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 20px 25px 20px 0;
+}

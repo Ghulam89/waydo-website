@@ -1,0 +1,93 @@
+.profileContainer {
+  display: flex;
+  gap: 38px;
+  flex-flow: column;
+  color: #15223f;
+  padding: 50px 0;
+}
+
+.contentWrap {
+  display: flex;
+  gap: 50px;
+}
+
+.profileOptions {
+  width: 280px;
+  border-radius: 25px;
+  padding: 12px 3px 18px;
+  font-size: 15px;
+  box-shadow: 0px 4px 6px #84848433;
+}
+
+.profileOptions>li {
+  cursor: pointer;
+  display: flex;
+  flex-flow: column;
+}
+
+.profileOptions>li>div {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.profileOptions>li:last-child>div {
+  border-bottom: none;
+}
+
+.profileContent {
+  flex: 1;
+  font-size: 14px;
+}
+
+.optionsItemContent {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 8px 23px;
+}
+
+.optionsItemContent .optionIcon svg {
+  height: 23px;
+  width: 23px;
+  overflow: visible;
+}
+
+.optionsItemContent .optionIcon+div {
+  flex: 1;
+}
+
+.profileOptions li ul {
+  -webkit-transition: min-height .2s, height .2s;
+  transition: min-height .2s, height .2s;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.profileOptions li ul li {
+  padding: 16px 23px 16px 60px;
+}
+
+.profileOptions li.active,
+.profileOptions li ul li.active {
+  background-color: #eeeeee;
+  border-left: 4px solid #ff0000;
+}
+
+.profileOptions>li.active>div {
+  padding-left: 19px;
+}
+
+.profileOptions li ul li.active {
+  padding-left: 56px;
+}
+
+.chevron {
+  transform: rotate(180deg) scale(0.8);
+  -webkit-transform: rotate(180deg) scale(0.8);
+  transition: transform 0.3s;
+}
+
+.chevronActive {
+  transform: rotate(0deg) scale(0.8);
+  -webkit-transform: rotate(0deg) scale(0.8);
+  transition: transform 0.3s;
+}

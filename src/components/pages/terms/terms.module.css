@@ -1,0 +1,189 @@
+.mui-1u21icz {
+  padding: 0 16px 40px;
+  max-width: 1152px;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.mui-14fwub4 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.mui-1ddiinb {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.mui-1s5vtfx {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 24px;
+  text-transform: uppercase;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.mui-1esqlmi {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.mui-1ohc25x,
+.mui-hkn05f {
+  margin: 0;
+  color: #E00000;
+  margin-left: 4px;
+  margin-right: 4px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-decoration-color: rgba(224, 0, 0, 0.4);
+}
+
+.regularOl {
+  padding-left: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  counter-reset: section;
+}
+
+.mui-kbqkpi {
+  margin: 10px 0;
+
+  &::before {
+    counter-increment: section;
+    content: counters(section, '.') '. ';
+    font-weight: 700;
+    -webkit-margin-start: -25px;
+    margin-inline-start: -25px;
+    box-sizing: inherit;
+  }
+}
+
+.mui-1bt5219 {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -24px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.mui-17prdac {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.mui-f6u4m3 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  list-style-type: disc;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.regularLi {
+  margin: 10px 0;
+  list-style: disc;
+}
+
+.mui-1srw7xl {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-margin-end: 5px;
+  margin-inline-end: 5px;
+}
+
+.mui-1iqu3z7 {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -24px;
+}
+
+.mui-yhrj68 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.mui-d4loca {
+  padding-top: 24px;
+  display: block;
+}
+
+.mui-1wdzied {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.mui-404uhf {
+  margin: 0;
+  letter-spacing: 0;
+  font-family: proxima-nova, ProximaNova, noto, GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -24px;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}

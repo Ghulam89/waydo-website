@@ -1,0 +1,269 @@
+.header {
+    display: flex;
+    padding: 20.5px 0;
+    align-items: flex-start;
+    border-top: 1px solid #98A0B3;
+    margin-top: 20px;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+
+.title {
+    height: 30px;
+    overflow: hidden;
+    box-sizing: content-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 90%;
+    padding-bottom: 5px;
+}
+
+.header>div:first-child {
+    flex: 1 1 auto;
+    padding-right: 5px;
+    box-sizing: content-box;
+}
+
+.header>div:first-child>h1,
+.header>div:first-child>span {
+    color: #15223F;
+}
+
+.header>div:first-child>span {
+    margin-top: 5px;
+}
+
+.header>div:last-child>strong {
+    font-size: 2em;
+    color: var(--primary-color);
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.tourVirtual360 {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+}
+
+.tourVirtual360>span {
+    color: #15223F;
+}
+
+.tourVirtual360>p {
+    color: #15223F;
+    font-size: .8em;
+    padding: 8px 0 15px 0;
+}
+
+.tourVirtual360>div {
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tourVirtual360>div>div {
+    width: 65px;
+}
+
+.tourVirtual360>div>div>svg {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 35px;
+    width: 200px;
+}
+
+.tourVirtual360>div>span {
+    position: relative;
+    left: 10px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.summaryCar {
+    padding: 29px 0 34px 0;
+}
+
+.summaryCar>div {
+    display: grid;
+    width: 100%;
+    gap: 18.2px;
+}
+
+.summaryBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 7px #0000001A;
+    border-radius: 5px;
+}
+
+.summaryBox>span {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.boxImgSummaryBox {
+    height: 25px;
+    width: 32px;
+    padding: 17.7px 0 7px 0;
+}
+
+.boxImgSummaryBox>svg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.summaryBox>p {
+    font-size: .8em;
+}
+
+.tableAditionalDetail {
+    width: 100%;
+    padding: 30px;
+}
+
+.tableAditionalDetail tr>td {
+    padding: 10px 60px;
+    border-bottom: 1px solid #00000000;
+    color: #15223F;
+}
+
+.boxDescription {
+    padding-top: 22px;
+    padding-bottom: 50px;
+    color: #15223F;
+}
+
+.boxDescription button {
+    background-color: transparent;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: .9em;
+    cursor: pointer;
+    border: none;
+    margin: 28px 0 0 20px;
+}
+
+.boxDescription button:hover {
+    text-decoration: underline;
+}
+
+.boxNotImage {
+    height: 533px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxNotImage>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.boxShowMap {
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.boxShowMap>div {
+    display: flex;
+    align-content: center;
+    padding-right: 20px;
+    flex: 1 1 auto;
+}
+
+.boxShowMap>div>p {
+    padding-left: 8px;
+}
+
+.boxShowMap>button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.contentMap {
+    height: 300px;
+}
+
+.reportArea {
+    border-top: 1px solid rgb(224, 225, 227);
+    border-bottom: 1px solid rgb(224, 225, 227);
+    padding: 20px 0;
+    margin: 50px 0 20px;
+    width: 100%;
+}
+
+.reportArea>div:first-child {
+    cursor: pointer;
+}
+
+.reportArea .report {
+    color: #E00000;
+}
+
+/* .reportArea .reportContainer {
+    background-color: white;
+    width: 95%;
+    max-width: 600px;
+    min-width: 500px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    max-height: 97vh;
+}
+
+.reportArea .boxClose {
+    cursor: pointer;
+}
+
+.reportArea .header,
+.reportArea .footer,
+.reportArea .content {
+    padding: 16px 30px;
+}
+
+.reportArea .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    margin-top: 0;
+}
+
+.reportArea .content {
+    height: calc(100% - 175px);
+    overflow: auto;
+}
+
+.reportArea .list {
+    display: flex;
+    flex-flow: column;
+}
+
+.reportArea .list>div {
+    border-bottom: 1px solid rgb(224, 225, 227);
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.reportArea .list>div:last-child {
+    border-bottom: none;
+} */

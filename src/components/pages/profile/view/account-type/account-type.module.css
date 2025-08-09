@@ -1,0 +1,27 @@
+.accountType {
+  display: flex;
+  gap: 40px;
+  flex-flow: column;
+}
+
+.header {
+  display: flex;
+  gap: 25px;
+  flex-flow: column;
+}
+
+.changePlan {
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+}
+
+.arrowIcon {
+  width: 35px;
+  height: 35px;
+}

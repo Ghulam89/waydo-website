@@ -1,0 +1,132 @@
+.dashboardHeader {
+  padding: 0 50px 0 110px;
+  box-shadow: 0px 4px 6px #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* gap: 16px; */
+}
+
+.headerOptions,
+.sectionTitle {
+  padding: 20px 0;
+}
+
+.headerOptions {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  overflow: hidden;
+  padding-left: 16px;
+}
+
+.dashboardHeader .companyMetrics,
+.dashboardHeader .companyWallet {
+  background: #fafafa;
+  box-shadow: 0 3px 5px #eee;
+  border-radius: 8px;
+}
+
+.dashboardHeader label {
+  font-size: 14px;
+}
+
+.companyMetrics {
+  display: flex;
+  margin-right: 18px;
+  flex: 1;
+  overflow-x: auto;
+  scrollbar-width: none;
+  min-width: 180px;
+  max-width: 700px;
+}
+
+.companyMetrics>div {
+  border-right: 1px solid #f6f6f6;
+  display: flex;
+  flex-flow: column;
+  padding: 0 20px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.companyMetrics>div:first-child {
+  gap: 10px;
+}
+
+.companyMetricsPlan {
+  background: #ecb35f;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.companyPlan {
+  flex-flow: row !important;
+  align-items: center;
+}
+
+.companyPlan>div:last-child {
+  position: relative;
+  top: 13px;
+  line-height: 0.9;
+}
+
+.companyWallet {
+  height: 92px;
+  width: 92px;
+  cursor: pointer;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.companyWallet>svg {
+  width: 32px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.companyAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #98a0b3;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.companyAvatar>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.companyAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boxButtonPost {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-left: 1px solid #efefef;
+  padding-left: 10px;
+}
+
+.boxButtonPost>button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 35px;
+}

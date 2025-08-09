@@ -1,0 +1,178 @@
+.dashboardStats {
+  display: flex;
+  flex-flow: column;
+  gap: 18px;
+}
+
+.dashboardStats>div:first-child {
+  display: inherit;
+  gap: inherit;
+}
+
+.statsContainer {
+  flex: 1;
+  display: inherit;
+  flex-flow: column;
+  max-width: calc(100% - 370px);
+  max-height: 400px;
+  padding: 0 0 65px;
+}
+
+.lineCharts {
+  padding: 0 25px 25px;
+  height: calc(100% - 20px);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.lineCharts>canvas {
+  width: 100%;
+}
+
+.statstsQuickDetails {
+  padding: 25px;
+}
+
+.statsOffices {
+  padding: 0 0 2px;
+}
+
+.statsContainer>.titleArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.statsContainer .titleArea .MuiFormControl-root .MuiInputBase-root>div:first-child {
+  font-size: 0.875rem;
+}
+
+.statstsQuickDetails {
+  width: 302px;
+  display: inherit;
+  flex-flow: column;
+}
+
+.titleArea {
+  padding: 20px 25px;
+  /* border-bottom: 1px solid #DBE5ED; */
+  /* width: calc(100% - 120px);
+  margin: 0 60px 20px; */
+}
+
+.titleArea>h1 {
+  font-weight: lighter;
+  font-family: system-ui;
+  font-size: 1.8rem;
+}
+
+.statsContainer .items,
+.officesList {
+  display: flex;
+  gap: 18px;
+  padding: 0 0 10px 5px;
+}
+
+.statsBottom {
+  display: flex;
+  gap: 20px;
+}
+
+.statsBottom>div:first-child {
+  min-width: 380px;
+}
+
+.statsBottom>div:last-child {
+  flex: 1;
+}
+
+.itemOffice {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.officesContainer {
+  padding: 0 20px;
+}
+
+.officesTable>div>div>div:first-child>div {
+  min-height: 40px;
+  border-bottom: 0;
+}
+
+.officesTableBottom {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: red;
+  font-size: 0.813rem;
+  margin: 0 20px;
+  border-top: 1px solid rgba(0, 0, 0, .12);
+  cursor: pointer;
+}
+
+.publicationQtyContainer {
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-weight: bold;
+  color: #707d76;
+}
+
+.mapWrapper {
+  display: flex;
+  flex-flow: column;
+}
+
+.mapContent {
+  display: flex;
+  padding: 0px 20px 20px;
+}
+
+.mapContent>div:first-child {
+  width: 400px;
+  height: 260px;
+  overflow: hidden;
+  /* margin-top: 10px; */
+  display: flex;
+}
+
+.mapContent>div:first-child>div {
+  height: 330px;
+  width: 380px;
+}
+
+.mapLegends {
+  flex: 1;
+}
+
+.mapLegends>.mapLegendItem {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: #a6a7ad;
+  margin-bottom: 20px;
+}
+
+.legendItemTItle {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.mapLegendItem .highcharts-container {
+  display: none;
+}
+
+.mapLegendItem .mapLegendBar {
+  height: 6px;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #edf0f5;
+  overflow: hidden;
+}
+
+.mapLegendItem .mapLegendBar>div {
+  height: 100%;
+}

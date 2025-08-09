@@ -1,0 +1,62 @@
+.addLocationButton,
+.titleArea,
+.addresses {
+  display: flex;
+}
+
+.addresses {
+  flex-flow: column;
+  gap: 60px;
+}
+
+.titleArea {
+  justify-content: space-between;
+}
+
+.addLocationButton,
+.titleArea {
+  align-items: center;
+}
+
+.addLocationButton {
+  justify-content: center;
+}
+
+.addLocationButton {
+  background-color: black;
+  width: 203px;
+  height: 45px;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 12px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.emptyAddresses>div:first-child {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 45px;
+  text-align: center;
+  gap: 16px;
+}
+
+.addAddressOptions,
+.list {
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.addressTypeOptionItem {
+  display: flex;
+  gap: 15px;
+  padding: 24px 28px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}

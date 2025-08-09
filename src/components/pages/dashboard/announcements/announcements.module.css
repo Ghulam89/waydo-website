@@ -1,0 +1,150 @@
+.announcementsContainer {
+  display: flex;
+  flex-flow: column;
+  padding: 30px 40px;
+}
+
+.upperFilters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxTabList {
+  font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* padding: 0 12px; */
+}
+
+.list {
+  border: 1px solid #707070;
+  border-radius: 21px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: .75em;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  color: #15223f;
+  transition: all ease .4s;
+}
+
+.list:hover,
+.listActive {
+  color: white;
+  background-color: #15223F;
+}
+
+.actionsWrapper {
+  display: flex;
+  margin: 16px 0 30px;
+  padding: 10px 20px;
+  border-top: 1px solid #DBE5ED;
+  border-bottom: 1px solid #DBE5ED;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions>div {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  border-right: 1px solid #d5d5d5;
+  gap: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.actions>div:first-child {
+  padding-left: 0;
+}
+
+.actions>div:last-child {
+  border-right: none;
+}
+
+.actions>div.actionAvailable {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.officesDropdown {
+  cursor: pointer;
+}
+
+.officesDropdown>div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.officesDropdown h2 {
+  font-weight: lighter;
+}
+
+.officesDropdown svg {
+  font-size: 30px;
+}
+
+.searchAndSelect {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.announccementsSearch {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #98a0b3;
+  padding: 0px 20px;
+  height: 33px;
+  width: 290px;
+  position: relative;
+}
+
+.announccementsSearch>input {
+  border: none;
+  height: 25px;
+  padding: 0 5px;
+  width: calc(100% - 30px);
+}
+
+.announccementsSearch>svg {
+  position: absolute;
+  height: 17px;
+  right: 17px;
+}
+
+.selectAll {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+}
+
+.announcementsContainer .footer {
+  border-top: 1px solid #DBE5ED;
+  margin-top: 30px;
+  padding: 30px 0 0;
+}
+
+@media screen and (max-width: 1109px) {
+  .searchAndSelect {
+    flex-flow: column;
+    gap: 16px;
+  }
+}

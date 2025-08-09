@@ -1,0 +1,32 @@
+.notificationsContainer {
+  padding: 80px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+  color: #15223F;
+  font-family: "ProximaNova", sans-serif;
+}
+
+.notificationsContainer .empty {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.notificationsContainer .empty svg,
+.emptyText h3 {
+  margin-bottom: 10px;
+}
+
+.emptyText {
+  text-align: center;
+}
+
+.emptyText p {
+  color: #7B7C7D;
+  font-size: 14px;
+}

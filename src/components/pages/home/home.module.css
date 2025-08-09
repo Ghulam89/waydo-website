@@ -1,0 +1,38 @@
+.section2 {
+    padding-top: 80px;
+    display: flex;
+    height: 481px;
+}
+
+.section2>div {
+    display: flex;
+}
+
+.boxFeatured {
+    flex: 1 1 0;
+    padding-left: 24px;
+    overflow: hidden;
+}
+
+.banner2,
+.banner4 {
+    padding: 27px 0 21px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionRecent {
+    border-bottom: 1px solid #98A0B3;
+}
+
+.sectionOpportunity {
+    padding-top: 16px;
+}
+
+.boxFilter {
+    z-index: 500;
+    position: sticky;
+    top: 0;
+    width: 90%;
+    margin: -30px auto 0;
+}

@@ -1,0 +1,67 @@
+.chatChannelItem {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  border-radius: 6px;
+}
+
+.active {
+  border: 1px solid #dbe5ed;
+  background-color: #f9fafc;
+}
+
+.chatChannelItem .channelInfo {
+  display: inherit;
+  flex: 1;
+  flex-flow: column;
+}
+
+.channelInfo>div:first-child {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channelInfo>div:first-child span {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.channelInfo>div:last-child {
+  color: #afbbc6;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.channelAvatar {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.channelAvatar>img {
+  border-radius: 50%;
+}
+
+.chatChannelAvailabilityLight {
+  height: 8px;
+  width: 8px;
+  min-height: 8px;
+  min-width: 8px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #afbbc6;
+  right: -1px;
+  bottom: 1px;
+}
+
+.chatChannelAvailabilityLight.active {
+  background-color: #51b236;
+}
+
+.chatChannelAvailabilityLight.away {
+  background-color: #ffbd08;
+}

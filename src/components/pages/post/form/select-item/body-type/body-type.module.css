@@ -1,0 +1,27 @@
+.box {
+    font-size: 1em;
+    padding: 8px 18px;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+    width: 100px;
+}
+
+.boxActive {
+    border: 1px solid var(--color-border-active) !important;
+    background-color: var(--background-selected) !important;
+    font-weight: 600 !important;
+}
+
+.boxImage {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.box>span {
+    text-align: center;
+}

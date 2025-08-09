@@ -1,0 +1,82 @@
+.footer {
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    height: 350px;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.boxTop {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 1px solid #8D8D8D;
+    padding-bottom: 41.9px;
+}
+
+.boxNav>nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 46.77px;
+}
+
+.navTitle {
+    font-weight: 600;
+    color: #8D8D8D;
+    font-size: 1.2em;
+    padding-bottom: 17.97px;
+}
+
+.navLink {
+    font-weight: 400;
+    color: #8D8D8D;
+    font-size: .9em;
+    transition: all ease .4s;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.liSocial {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.liSocial>div {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.liSocial svg {
+    height: 23px;
+    width: 23px;
+}
+
+.liSocial:nth-child(1) svg {
+    stroke: #8D8D8D;
+    opacity: .5;
+}
+
+.liSocial:nth-child(2) svg {
+    fill: #8D8D8D;
+}
+
+.liSocial:nth-child(3) svg {
+    opacity: .5;
+}
+
+.liSocial span {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #8D8D8D;
+    font-size: .9em;
+    transition: all ease .4s;
+}
+
+.liSocial:hover span {
+    color: var(--primary-color);
+}

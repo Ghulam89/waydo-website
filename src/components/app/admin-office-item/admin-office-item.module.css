@@ -1,0 +1,123 @@
+.officeItem {
+  box-shadow: 0px 3px 6px #00000012;
+  border-radius: 14px;
+  background-color: #FAFAFA;
+  padding: 12px;
+}
+
+.itemHead {
+  display: flex;
+  gap: 8px;
+}
+
+.itemHead>div:last-child {
+  flex: 1;
+  display: inherit;
+  justify-content: end;
+}
+
+.officeInfo {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.officeInfo span {
+  font-size: 14px;
+}
+
+.officeInfo img {
+  border-radius: 5px;
+}
+
+.itemContent {
+  display: flex;
+  gap: 16px;
+  border-top: 1px solid #DBE5ED;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.agentsCounter,
+.itemPublishQty {
+  background-color: #f7f7f8;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.itemPublishQty {
+  padding: 20px;
+}
+
+.itemPublishQty>h1 {
+  font-size: 2.7rem;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.itemPublishQty>div {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.itemPublishQty>div>svg {
+  height: 8px;
+  width: auto;
+}
+
+.itemPublishQty>div>span {
+  font-size: 0.7rem;
+}
+
+.viewsAndInteractions {
+  flex: 1;
+}
+
+.viewsAndInteractions>div:first-child {
+  border-bottom: 1px solid #DBE5ED;
+}
+
+.viewsAndInteractions>div {
+  padding: 10px;
+}
+
+.viewsAndInteractions>div span {
+  font-size: 0.7rem;
+}
+
+.viewsAndInteractions>div h2,
+.agentsCounter h2 {
+  font-weight: lighter;
+}
+
+.agentsCounter {
+  padding: 10px;
+}
+
+.agentsCounter button {
+  font-size: 11px;
+  max-height: 30px;
+  margin-top: 10px;
+  border-radius: 6px;
+  max-width: 82px;
+}
+
+.agentsCounter span,
+.agentsCounter strong,
+.agentsCounter button {
+  font-size: 0.7rem;
+}
+
+.officePersonel>div:last-child {
+  font-size: 0.7rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2px;
+  margin-top: 5px;
+}

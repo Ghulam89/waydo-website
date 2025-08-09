@@ -1,0 +1,40 @@
+.dashboardPagination {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #4B5155;
+}
+
+.dashboardPagination>div {
+  display: inherit;
+  gap: 10px;
+  align-items: center;
+}
+
+.paginationHomeBtn,
+.paginationNav>div {
+  cursor: pointer
+}
+
+.paginationNav {
+  gap: 18px !important;
+}
+
+.paginationNav>div {
+  width: 35px;
+  height: 35px;
+}
+
+.paginationNav>div,
+.paginationInfo>div {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E8E9EC;
+  border-radius: 4px;
+}
+
+.paginationInfo>div {
+  width: 46px;
+  height: 32px;
+}

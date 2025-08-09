@@ -1,0 +1,56 @@
+.addressItem {
+  padding: 24px;
+  background-color: #F7F7F8;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.addressItem .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addressItem .header>div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-transform: capitalize;
+}
+
+.addressItem .addressOptions {
+  display: flex;
+  justify-content: start;
+  gap: 26px;
+}
+
+.addressItem .addressOptions>div {
+  display: flex;
+  gap: 20px;
+}
+
+.addressItem label.setAsDefaultLabel span {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  font-family: inherit;
+}
+
+.confirmationContainer {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+  max-width: 360px;
+  width: 90%;
+}
+
+.confirmationContainer .content .confirmationOptions {
+  display: flex;
+  margin-top: 25px;
+  gap: 16px;
+}

@@ -1,0 +1,176 @@
+.announcemntItem {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.announcementImageSlide {
+  width: 275px;
+  height: 227px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.announcementImageSlide>div:last-child {
+  height: 227px;
+}
+
+.announcementImageSlide>div:last-child>div:first-child {
+  height: 227px;
+}
+
+.announcementImageSlide>div:last-child>ul {
+  position: relative;
+  top: -55px;
+}
+
+.announcementImageSlide .checkItem {
+  height: 24px;
+  width: 24px;
+  background: white;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.announcementImageSlide .checkItem>span {
+  padding: 0;
+}
+
+.announcementImageSlide .checkItem>span svg {
+  font-size: 30px;
+  top: -3px;
+  position: relative;
+  left: -3px;
+}
+
+.announcementDetails {
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+.announcementDetails>div:first-child {
+  font-weight: bold;
+}
+
+.announcementItemBrand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.announcementItemBrand>span:nth-child(2) {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.announcementFeatures,
+.announcementFeatures>div {
+  display: flex;
+  gap: 12px;
+}
+
+.announcementFeatures>div {
+  gap: 4px;
+  padding: 10px 25px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f8;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+.announcementFeatures>div>span:first-child {
+  text-transform: uppercase;
+  color: #818181;
+}
+
+.announcementFeatures>div>span:last-child {
+  font-weight: bold;
+}
+
+.statusAndActions {
+  display: flex;
+  gap: 12px;
+  align-items: end;
+}
+
+.statusAndActions>div {
+  cursor: pointer;
+}
+
+.statusBadge {
+  height: 35px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.addressAndDate {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.addressAndDate>div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.addressAndDate svg {
+  width: 13px;
+}
+
+.addressAndDate>span {
+  color: #818181;
+}
+
+.views {
+  gap: 24px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.views,
+.views div {
+  display: flex;
+  align-items: end;
+}
+
+.views>div:first-child,
+.views>div:first-child div {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.viewCounter,
+.getMoreViews {
+  color: red;
+  font-weight: bold;
+}
+
+.getMoreViews {
+  gap: 8px;
+}
+
+.viewCounter+div {
+  color: #818181;
+}

@@ -1,0 +1,17 @@
+.getVerified {
+  background: white;
+  border-radius: 8px;
+  padding: 10px 36px 5px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+  width: fit-content;
+  font-size: 16px;
+  font-family: "ProximaNova", sans-serif;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+
+.getVerified h3 {
+  font-size: 1.30em;
+}

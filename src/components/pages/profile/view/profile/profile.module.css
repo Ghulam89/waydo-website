@@ -1,0 +1,167 @@
+.identity {
+  margin: 80px 0;
+  display: flex;
+  gap: 65px;
+  /* padding-bottom: 30px; */
+  align-items: center;
+}
+
+.avatarContent {
+  background-color: #d7d7d7;
+  width: 135px;
+  height: 135px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatarContent>div:first-child {
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+.boxAvatarContent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.boxAvatarContent>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatarEditButton {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background-color: #646464;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -3px;
+  right: -3px;
+  cursor: pointer;
+}
+
+.avatarEditButton input {
+  display: none;
+}
+
+.getVerifiedButton {
+  margin-top: 16px;
+  padding: 10px 16px;
+  display: flex;
+  gap: 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  align-items: center;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.getVerifiedButton div,
+.getVerifiedButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.joinedTime {
+  margin-top: 16px;
+}
+
+.name {
+  display: flex;
+  gap: 70px;
+}
+
+.nameTitles {
+  display: flex;
+  flex-flow: column;
+  padding-top: 9px;
+}
+
+.nameFields {
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  flex: 1;
+}
+
+.textField div.MuiInputBase-root {
+  border-radius: 8px;
+}
+
+.profileMoreDetails {
+  display: flex;
+  flex-flow: column;
+  gap: 35px;
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.profileDataFields {
+  display: flex;
+  flex-flow: column;
+  gap: 35px;
+}
+
+.profileDataFields>div {
+  display: flex;
+  gap: 28px;
+}
+
+.profileDataFields .label {
+  width: 250px;
+}
+
+.profileDataFields .label>div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.profileDataFields .label svg {
+  display: flex;
+  align-items: center;
+}
+
+.profileDataFields .label svg path {
+  width: 20px;
+  height: 20px;
+}
+
+.profileDataFields .label:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.profileDataFields .field {
+  flex: 1;
+}
+
+.profileDataFields .field>div {
+  width: 100%;
+}
+
+.profileDataFields>div:last-child div.field>div {
+  flex-flow: nowrap;
+  gap: 20px;
+}
+
+.saveButton {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+}

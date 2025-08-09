@@ -1,0 +1,102 @@
+.box {
+    width: 400px;
+    background: white;
+    color: black;
+    border-radius: 23;
+    border: 1px solid #C1C1C1;
+    box-shadow: 2px 1px 16px #00000059;
+    padding: 25px 30px 15px 30px;
+    border-radius: 10px;
+    cursor: auto;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.headerNotPadding {
+    padding-bottom: 0;
+}
+
+.boxTitleHeader {
+    flex: 1 1 auto;
+}
+
+.containerActionHeader {
+    display: flex;
+    align-items: center;
+}
+
+.actionHeader {
+    font-weight: 400;
+    color: #8D8D8D;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+.actionHeader:hover {
+    text-decoration: underline;
+}
+
+.boxLogo {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px 30px 40px;
+}
+
+
+.boxLogo>svg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: center;
+    padding: 0 18.5%;
+    text-align: center;
+}
+
+.boxTitle>span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.boxDescription {
+    display: flex;
+    justify-content: center;
+}
+
+.boxDescriptionNormal {
+    justify-content: flex-start;
+}
+
+.boxDescription>p {
+    text-align: center;
+    font-weight: 400;
+    color: #8D8D8D;
+    font-size: .8em;
+    padding: 10px 10px;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.boxDescriptionNormal>p {
+    text-align: left;
+    padding: 0 !important;
+}
+
+.boxLink {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    color: var(--primary-color);
+    font-weight: 700;
+    cursor: pointer;
+}

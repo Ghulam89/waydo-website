@@ -1,0 +1,104 @@
+.boxHeaderRadioButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxHeaderRadioButton b {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-size: .9em !important;
+}
+
+.container {
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    transition: all ease .5s;
+    overflow: hidden;
+}
+
+.containerGrid {
+    display: grid !important;
+    flex-wrap: nowrap !important;
+    align-items: normal !important;
+    justify-content: flex-start !important;
+    gap: 0px !important;
+    padding-top: 15px;
+    transition: all ease .5s;
+    overflow: hidden;
+}
+
+.container>div>div {
+    height: 35px;
+}
+
+.containerGrid>div>div {
+    height: auto !important;
+}
+
+.error {
+    color: red;
+}
+
+
+.iconShow {
+    position: relative;
+    top: 2px;
+    transform: rotate(0deg);
+    transition: all ease .2s;
+}
+
+.iconShowActive {
+    transform: rotate(180deg);
+}
+
+.boxShowMore {
+    padding: 10px 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+    border-color: rgb(224, 225, 227);
+    cursor: pointer;
+}
+
+.contentShowMore {
+    display: flex;
+    justify-content: center;
+}
+
+.contentShowMore>.boxShowMore {
+    width: 40%;
+}
+
+.boxShowMore:hover {
+    border: 1px solid var(--color-border-active) !important;
+    background-color: var(--background-selected);
+    font-weight: 600;
+}
+
+.boxShowMore>span {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.boxShowMore>span>p {
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 700;
+    color: rgb(58, 136, 239);
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1;
+}

@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.none {
+    display: none;
+}
+
+.boxBack {
+    padding-top: 20.5px;
+    width: 100%;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+}
+
+.title {
+    padding: 31px 0 68px 0;
+    text-align: center;
+    color: #15223F;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.button {
+    border: 1px solid #7070701e;
+    width: 140px;
+    height: 110px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 4px #00000029;
+    position: relative;
+}
+
+.button svg {
+    width: 60px;
+}
+
+.box>p {
+    text-align: center;
+    padding: 30px 15px 0 15px;
+    font-size: .9em;
+}
+
+.imageIA {
+    display: none;
+}
+
+.modal {
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 61px 105px;
+}
+
+.boxAnimationImage {
+    height: 150px;
+    width: 150px;
+}
+
+.boxAnimationAudio {
+    width: 350px;
+}
+
+.textModal {
+    font-size: 1.2em;
+    color: #15223F;
+    text-align: center;
+    padding: 40px 0 57px 0;
+}
+
+.boxLoadingAudio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxLoadingAudio>p {
+    padding: 10px 0;
+    text-align: center;
+    color: #15223F;
+}
+
+.boxSpeecRecognition {
+    height: 100%;
+    width: 100%;
+}
+
+.boxIconSpeecRecognition {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

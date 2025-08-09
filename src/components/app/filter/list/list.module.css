@@ -1,0 +1,64 @@
+.boxListFilter {
+    padding-bottom: 40px;
+    display: flex;
+    position: relative;
+}
+
+.content {
+    height: 40px;
+    margin-right: 100px;
+    overflow: hidden;
+    display: flex;
+    overflow-x: auto;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.contentActive {
+    height: initial !important;
+    margin-right: 0 !important;
+}
+
+.boxButtonShowMore {
+    position: absolute;
+    right: 0;
+}
+
+.item {
+    padding: 10px 16px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+    border-color: #E0E1E3;
+    cursor: pointer;
+    font-size: .9em;
+}
+
+.item:hover,
+.itemActive {
+    background-color: #F2F7FE;
+    border-color: rgba(137, 184, 246, 1);
+}
+
+.item,
+.item a {
+    color: #0F5DC4 !important;
+}
+
+.item a span {
+    color: #464C55;
+    margin-left: 4px;
+    line-height: 1%;
+}
+
+.showMore {
+    font-weight: 600;
+}

@@ -1,0 +1,12 @@
+.component{
+    padding: 25px 34.75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 62.71px;
+}

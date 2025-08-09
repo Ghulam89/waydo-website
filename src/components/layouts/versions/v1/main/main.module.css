@@ -1,0 +1,12 @@
+.container {
+    flex: 1 1 auto;
+    min-height: 100vh;
+}
+
+.main {
+    min-height: calc(100vh - 80px - 350px);
+    padding: 5px 0px 44px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: initial;
+}

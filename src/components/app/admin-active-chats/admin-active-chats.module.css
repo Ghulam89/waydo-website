@@ -1,0 +1,76 @@
+.activeChats>div:first-child h4 {
+  color: #4b5155;
+  /* margin-bottom: 10px; */
+}
+
+.chatsList {
+  padding: 0px 0 16px;
+  display: flex;
+  flex-flow: column;
+  overflow: auto;
+}
+
+.activeChats {
+  flex: 1;
+  display: inherit;
+  flex-flow: column;
+  height: calc(100% - 430px);
+  color: #7b8793;
+}
+
+.activeChats>.chatsList {
+  flex: 1;
+  overflow: auto;
+}
+
+.chatsSearch {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.chatsSearch>svg {
+  position: absolute;
+  right: 10px;
+  font-size: .9rem;
+  color: #afbbc6;
+}
+
+.chatsSearch>input {
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid #DBE5ED;
+  border-radius: 8px;
+  padding: 10px 34px 10px 10px;
+}
+
+.chatsSearch>input::placeholder {
+  color: #afbbc6;
+}
+
+.activeChatsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.addPersonToChat {
+  background-color: #f3f6f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.addPersonToChat>svg {
+  color: #7b8793;
+  font-size: 1.2rem;
+}

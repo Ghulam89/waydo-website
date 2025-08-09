@@ -1,0 +1,316 @@
+.content {
+    padding-top: 33.5px;
+}
+
+.header {
+    margin-bottom: 16px;
+}
+
+.title {
+    padding-bottom: 13px;
+}
+
+.boxList {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    height: 100%;
+}
+
+.boxNav {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    max-height: 680px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 225, 227);
+    background-color: rgb(245, 249, 254);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 10px 0px, rgba(0, 0, 0, 0.02) 0px 3px 8px 0px, rgba(0, 0, 0, 0.02) 0px 4px 8px -2px;
+    overflow: hidden scroll;
+}
+
+.boxHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    align-self: stretch;
+}
+
+.boxHeader>h6 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: rgb(23, 25, 28);
+    margin: 0px;
+}
+
+.boxHeader>button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    line-height: 1.75;
+    min-width: 64px;
+    color: rgb(35, 38, 42);
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 36px;
+    letter-spacing: 0.25px;
+    text-transform: none;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.boxHeader>button:hover {
+    text-decoration: none;
+    background-color: rgba(35, 38, 42, 0.04);
+}
+
+.boxHeader>button>span {
+    display: inherit;
+    margin-right: 8px;
+    margin-left: -4px;
+    position: relative;
+    top: -1px;
+}
+
+.boxListNav {
+    width: 100%;
+    background-color: #FFF5F5;
+}
+
+.contentAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 60px 180px 60px;
+}
+
+.boxAdd {
+    background-color: white;
+    width: 272px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxAdd>h3 {
+    padding: 4px 0 5px 0;
+}
+
+.boxAdd>span {
+    margin-bottom: 21px;
+}
+
+.boxAdd>button {
+    color: #15223F;
+    background-color: none;
+    border: 2px solid #FF0000;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.boxListR {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.boxListRHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.boxListRHeaderTop {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxListRHeaderTop>h6 {
+    font-size: 1.25rem;
+    margin: 0px;
+    font-weight: 600;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    line-height: 1.6;
+    color: rgb(23, 25, 28);
+    flex: 1 0 0px;
+    max-width: 50ch;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.boxListRHeaderTopButton {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.boxListRHeaderTopButtonB {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    line-height: 1.75;
+    color: rgb(35, 38, 42);
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 36px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 6px;
+}
+
+.boxListRHeaderTopButtonB:hover {
+    text-decoration: none;
+    background-color: rgba(35, 38, 42, 0.04);
+}
+
+.boxListRHeaderTopButtonB>span {
+    display: inherit;
+    margin-right: 8px;
+    margin-left: -4px;
+}
+
+.buttonShare {
+    min-width: 64px;
+    padding: 8px 16px;
+}
+
+.boxInvite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+    color: rgb(9, 56, 117);
+    background-color: rgb(242, 247, 254);
+}
+
+.buttonInvite {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.buttonInvite>img {
+    width: 36px;
+    height: 24px;
+    box-sizing: content-box;
+    border: 0px;
+}
+
+.buttonInvite>p {
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.buttonInvite>p:last-child {
+    margin-bottom: 0px;
+}
+
+.contentBoxList {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    gap: 24px;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.contentBoxList {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxImageContentBoxList {
+    height: 300px;
+}
+
+.boxImageContentBoxList>img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.boxInfoContentBoxList {
+    text-align: center;
+}
+
+.boxInfoContentBoxList>h5 {
+    font-size: 1.1em;
+    padding: 8px 0 5px 0;
+}
+
+.boxInfoContentBoxList>p {
+    font-size: 1em;
+    padding: 0 15%;
+}
+
+.boxInfoContentBoxList>button {
+    margin-top: 15px;
+    padding: 11px 26px;
+    border-radius: 8px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}

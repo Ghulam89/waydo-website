@@ -1,0 +1,111 @@
+.content {
+    background-color: white;
+    padding: 25px 51px 31px 51px;
+    border-radius: 8px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 30.5px;
+    font-size: 1.7em;
+}
+
+.inputGroup>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxTypeMethod {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxTypeMethod>div {
+    display: flex;
+    align-items: center;
+}
+
+.boxTypeMethod>div:first-child {
+    padding-right: 32px;
+}
+
+.boxTypeMethod>div>svg {
+    height: 15px;
+}
+
+.boxTypeMethod>div>input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.inputGroup {
+    width: 100%;
+    padding: 49px 0 8px 0;
+}
+
+.inputGroup>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputGroup>div label {
+    color: #666666;
+    padding-left: 5px;
+}
+
+.inputGroup .boxInput {
+    display: flex;
+}
+
+.inputGroup .boxInput>div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.inputGroup .boxInput input {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 8px 5px 12px 5px;
+}
+
+.inputGroup .boxInput input:focus {
+    outline: none;
+}
+
+.contentCCV {
+    display: flex;
+    gap: 20px;
+}
+
+.contentCCV>div {
+    flex: 1 1 auto;
+    max-width: 50%;
+}
+
+.boxIconRight {
+    width: 40px;
+}
+
+.boxButtonPaymentMethod {
+    display: flex;
+    justify-content: center;
+    padding-top: 46px;
+}
+
+.boxButtonPaymentMethod>button {
+    background-color: #15223F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: .9em;
+}

@@ -1,0 +1,3 @@
+interface UserVerificationSliceI {
+  isModalActive: boolean;
+};

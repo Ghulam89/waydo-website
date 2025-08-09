@@ -1,0 +1,195 @@
+.dashboardNotifications {
+  padding: 1px 1px;
+}
+
+.dashboardNotifications>.notificationsHeader,
+.dashboardNotifications>.notificationsFooter,
+.dashboardNotifications>.notificationsContent {
+  margin: 30px 40px;
+}
+
+.notificationsHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.boxTabList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  min-width: 182px;
+}
+
+.list {
+  border: 1px solid #707070;
+  border-radius: 21px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: .75em;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  color: #15223f;
+  transition: all ease .4s;
+}
+
+.list:hover,
+.listActive {
+  color: white;
+  background-color: #15223F;
+}
+
+.officesDropdown {
+  cursor: pointer;
+}
+
+.officesDropdown>div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.officesDropdown h2 {
+  font-weight: lighter;
+}
+
+.officesDropdown svg {
+  font-size: 30px;
+}
+
+.notificationSearchInputs {
+  display: flex;
+  gap: 20px;
+}
+
+.notificationsSearchInput {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #98a0b3;
+  padding: 0px 20px;
+  height: 33px;
+  /* width: 290px; */
+  position: relative;
+}
+
+.notificationsSearchInput>input {
+  border: none;
+  height: 25px;
+  padding: 0 5px;
+  width: calc(100% - 30px);
+}
+
+.notificationsSearchInput>svg {
+  position: absolute;
+  height: 17px;
+  right: 17px;
+}
+
+.notificationsContent {
+  border-top: 1px solid #dbe5ed;
+  border-bottom: 1px solid #dbe5ed;
+}
+
+.notificationsContent {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  padding: 20px 40px;
+}
+
+.notificationsContent>div {
+  display: flex;
+  align-items: center;
+  padding: 16px 30px;
+  gap: 20px;
+  flex: 1;
+}
+
+.notificationsContent>div:not(.notificationsContent > div:last-child) {
+  border-bottom: 1px solid #F1F1F3;
+}
+
+.notificationsContent .itemIcon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notificationsContent .itemIcon svg {
+  width: 20px;
+}
+
+.notificationsContent .itemName {
+  color: #43425D;
+  flex: 1;
+}
+
+.notificationsContent .itemName>div:last-child {
+  color: #0099ff;
+  font-weight: bold;
+}
+
+.quickDetailItems .itemSubtitle {
+  font-size: 0.875rem;
+  color: #b5b6bb;
+}
+
+.notificationCheckIcon {
+  width: 17px;
+}
+
+.notificationCheckIcon g {
+  fill: #daf7e8;
+}
+
+.notificationDropdown {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1070px) {
+  .notificationsHeader {
+    flex-flow: column;
+  }
+}
+
+.notificationDropdownModal {
+  width: 205;
+  border: 1px solid #DBE5ED;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px #00000029;
+  color: black;
+  display: flex;
+  overflow: hidden;
+  padding: 10px;
+  flex-flow: column;
+  font-size: 0.875rem;
+  gap: 10px;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #4b5155;
+}
+
+.dropdownIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  width: 16px;
+  border: 1px solid #4b5155;
+  border-radius: 3px;
+}
+
+.dropdownIcon>svg {
+  color: #4b5155;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,107 @@
+/* {
+  border-top: 1px solid rgb(224, 225, 227);
+  border-bottom: 1px solid rgb(224, 225, 227);
+  padding: 20px 0;
+  margin: 50px 0 20px;
+  width: 100%;
+}
+
+.reportArea>div:first-child {
+  cursor: pointer;
+}
+
+.reportArea>div:first-child>strong {
+  color: #E00000;
+} */
+
+.reportContainer {
+  background-color: white;
+  width: 95%;
+  max-width: 600px;
+  min-width: 500px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  max-height: 97vh;
+}
+
+.boxClose {
+  cursor: pointer;
+}
+
+.header,
+.footer,
+.content {
+  padding: 16px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-top: 0;
+}
+
+.content {
+  height: calc(100% - 175px);
+  overflow: auto;
+}
+
+.list {
+  display: flex;
+  flex-flow: column;
+}
+
+.list>div {
+  border-bottom: 1px solid rgb(224, 225, 227);
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.list>div:last-child {
+  border-bottom: none;
+}
+
+.submitArea {
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.submitArea>h4 {
+  color: rgb(107, 109, 112);
+}
+
+.reportTypeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(238, 240, 241);
+  border-radius: 6px;
+  height: 48px;
+  margin-bottom: 24px;
+  padding-inline: 16px;
+}
+
+.reportTypeHeader>svg {
+  font-size: 17px;
+  color: rgb(224, 0, 0);
+}
+
+.reportTextArea .MuiFormHelperText-root {
+  text-align: end;
+  font-weight: bolder;
+}
+
+.reportField>label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.reportForm .reportRadio {
+  margin: 10px 0 20px;
+}

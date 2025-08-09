@@ -1,0 +1,13 @@
+.container {
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: .9em;
+}
+
+.text {
+    font-size: .9em;
+    color: rgb(163, 166, 170);
+}
+
+.link {
+    color: rgb(18, 112, 236);
+}

@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.content>div:first-child {
+    flex: 1 1 auto;
+}
+
+.boxCounter>div,
+.boxCounter>div>div {
+    display: flex;
+    align-items: center;
+}
+
+.boxCounter>div>div {
+    padding: 0 5px;
+}
+
+.boxCounter>div>div:nth-child(1),
+.boxCounter>div>div:nth-child(3) {
+    cursor: pointer;
+}

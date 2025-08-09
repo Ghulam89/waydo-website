@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23">
+  <g id="Grupo_17093" data-name="Grupo 17093" transform="translate(-6719 -90)">
+    <g id="Grupo_17085" data-name="Grupo 17085" transform="translate(6719 90)">
+      <g id="Ellipse_48" data-name="Ellipse 48" transform="translate(0 0)" fill="none" stroke="#df5060" stroke-width="2">
+        <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
+        <circle cx="11.5" cy="11.5" r="10.5" fill="none"/>
+      </g>
+      <g id="Group" transform="translate(4.815 4.655)">
+        <path id="Vector" d="M2.633,8.214l-1.08.6a1.06,1.06,0,0,1-.7.127A1.035,1.035,0,0,1,.241,8.6.962.962,0,0,1,0,7.96L.742,5.8a.912.912,0,0,1,.328-.44.972.972,0,0,1,.53-.183c.192-.008,2.683-.1,2.683-.1a.638.638,0,0,0,.493-.322.591.591,0,0,0,0-.572.638.638,0,0,0-.493-.322L1.6,3.767a.972.972,0,0,1-.53-.183.913.913,0,0,1-.328-.44L0,1A.965.965,0,0,1,.244.354,1.04,1.04,0,0,1,.859.014a1.065,1.065,0,0,1,.7.124L4.695,1.872,7.833,3.614a.969.969,0,0,1,0,1.708L4.7,7.057l-.516.287Z" transform="translate(6.835 12.118) rotate(-145)" fill="#df5060"/>
+      </g>
+    </g>
+  </g>
+</svg>

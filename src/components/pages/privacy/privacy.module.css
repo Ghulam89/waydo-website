@@ -1,0 +1,165 @@
+.muiStyleLtr1u21icz {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0px 16px;
+  padding-bottom: 100px;
+}
+
+.mui-style-ltr-zx8a2 {
+  margin: 0px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.mui-style-ltr-16b14xt {
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  margin: 0px auto;
+}
+
+.mui-style-ltr-16b14xt>span {
+  font-weight: bold;
+}
+
+.mui-style-ltr-1g3o17s {
+  margin: -24px 0px 0px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(224, 0, 0);
+}
+
+.mui-style-ltr-1esqlmi {
+  margin: 0px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.mui-style-ltr-2jyucd {
+  margin: 0px;
+  text-decoration: underline rgba(224, 0, 0, 0.4);
+  color: rgb(224, 0, 0);
+}
+
+.mui-style-ltr-f6u4m3 {
+  list-style: disc !important;
+  margin: 0px;
+  position: relative;
+  padding: 8px 16px;
+
+  li.MuiListItem-root {
+    margin: 10px 0px;
+    list-style: disc;
+  }
+}
+
+.mui-style-ltr-1ddiinb {
+  margin: 0px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mui-style-ltr-1pjqj74 {
+  margin: 0px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgb(224, 0, 0);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.mui-style-ltr-17prdac {
+  margin: 0px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.mui-style-ltr-5bs74m {
+  margin: -24px 0px 8px;
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(224, 0, 0);
+}
+
+.mui-style-ltr-2wowr4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.mui-style-ltr-19hkf77 {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  min-width: 650px;
+  margin: 10px 0px;
+}
+
+.mui-style-ltr-q2r97h {
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  line-height: 1.5rem;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  text-align: left;
+  padding: 16px;
+  color: rgb(35, 38, 42);
+  font-weight: 700;
+  font-size: 16px;
+  width: 300px;
+  background-color: rgb(238, 236, 225);
+  border: 1px solid;
+  padding: 12px 6px;
+  text-align: start;
+}
+
+.mui-style-ltr-n0s3ot {
+  letter-spacing: 0px;
+  font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  text-align: left;
+  padding: 16px;
+  color: rgb(35, 38, 42);
+  font-size: 16px;
+  border: 1px solid;
+  padding: 12px 6px;
+  vertical-align: top;
+}

@@ -1,0 +1,159 @@
+.container {
+    padding: 0 100px;
+}
+
+.header {
+    padding-bottom: 22.5px;
+    border-bottom: 1px solid #98A0B3;
+}
+
+.boxInfo {
+    padding: 22.5px 0 31px 0;
+    border-bottom: 1px solid #98A0B3;
+    display: flex;
+}
+
+.contentInfo {
+    flex: 1 1 auto;
+
+}
+
+.boxSummary {
+    width: 100%;
+    max-width: 328px;
+    margin-left: 57px;
+    background-color: #F7F7F8;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.boxInclude {
+    padding: 16px 20px 30px 20px;
+}
+
+.description {
+    padding: 0 10px 23px 20px;
+}
+
+.boxExtraItem {
+    padding: 0 30px 36px 20px;
+}
+
+.boxExtraItem ul li {
+    display: flex;
+}
+
+.contentSumamry {
+    font-size: 1.5em;
+    padding: 0 13px;
+}
+
+.contentPlan {
+    padding: 15px 13px 8px 13px;
+    border-bottom: 1px solid #98A0B3;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.plan {
+    flex: 1 1 auto;
+}
+
+.extrasContent,
+.titleExtra,
+.boxPrice {
+    padding: 0 13px;
+}
+
+.titleExtra {
+    padding-bottom: 5px;
+}
+
+.extrasContent li {
+    display: flex;
+    padding: 3px 0;
+}
+
+.extrasContent li>div:first-child {
+    flex: 1 1 auto;
+}
+
+.summaryPrice {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #98A0B3;
+    margin-bottom: 13px;
+}
+
+.boxPrice {
+    display: flex;
+    padding-bottom: 15px;
+    font-size: 2em;
+    color: #FF0000;
+}
+
+.boxPrice>div:first-child {
+    flex: 1 1 auto;
+}
+
+.boxButtom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonPay {
+    background-color: #15223F;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.boxButtom>p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+    padding-top: 8px;
+}
+
+.boxButtom>p {
+    color: #7A7A7A;
+}
+
+.boxButtom>p>a {
+    color: #00B3FF;
+    font-weight: bold;
+}
+
+.paymentMethod {
+    padding-top: 20px;
+}
+
+.infoBoxPaymentMethod {
+    margin: 15px 0;
+    background-color: #F7F7F8;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.boxButtonPaymentMethod {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.boxButtonPaymentMethod>button {
+    background-color: #15223F;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+}

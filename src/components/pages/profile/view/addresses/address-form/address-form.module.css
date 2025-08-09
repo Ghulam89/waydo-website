@@ -1,0 +1,99 @@
+.container {
+  background-color: white;
+  width: 95%;
+  max-width: 600px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  max-height: 97vh;
+}
+
+.boxClose {
+  cursor: pointer;
+}
+
+.header,
+.footer,
+.content {
+  padding: 16px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  height: calc(100% - 175px);
+  overflow: auto;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.form .field>div {
+  width: 100%;
+}
+
+.form>.field .textField div.MuiInputBase-root {
+  border-radius: 8px;
+}
+
+.map {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.map .mapHeader {
+  font-weight: 300;
+  padding: 0 40px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.map .mapContent {
+  height: 300px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.footer {
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.addressTypeHeader {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.addressTypeOptions {
+  display: flex;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.addressTypeOptions>button.addressTypeOptionActive {
+  background-color: black;
+  color: white;
+}
+
+.addressTypeOptions>button {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 16px 40px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+div.addressTypeAsDefault>div.MuiFormControlLabel-root span.MuiTypography-root {
+  font-size: 14px !important;
+}

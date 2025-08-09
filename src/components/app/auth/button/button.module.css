@@ -1,0 +1,31 @@
+.button {
+    width: 100%;
+    text-align: center;
+    padding: 18px 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    transition: all ease .4s;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.buttonDisabled {
+    filter: grayscale(100%);
+    cursor: not-allowed;
+    background-color: #e0e0e0;
+    color: #4a5366;
+}
+
+.buttonLoading {
+    background-color: var(--primary-color-transparent);
+    filter: grayscale(0%);
+    color: white;
+    cursor: not-allowed;
+}

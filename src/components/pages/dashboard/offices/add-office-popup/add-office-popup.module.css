@@ -1,0 +1,159 @@
+.container {
+  background-color: white;
+  width: 95%;
+  min-width: 450px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+  max-height: 97vh;
+}
+
+.boxClose {
+  cursor: pointer;
+}
+
+.boxClose>svg {
+  font-size: 1.125rem;
+}
+
+.header,
+.footer,
+.content {
+  padding: 16px 30px;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
+  align-items: end;
+  padding-bottom: 5px;
+}
+
+.content {
+  height: calc(100% - 175px);
+  overflow: auto;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.form .field>div {
+  width: 100%;
+}
+
+.form>.field .textField div.MuiInputBase-root {
+  border-radius: 8px;
+  max-height: 30px;
+  background-color: red;
+}
+
+.form>.field .textField div.MuiInputBase-root input {
+  font-size: 0.875rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.map {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.map .mapHeader {
+  font-weight: 300;
+  padding: 0 40px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.map .mapContent {
+  height: 216px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.footer {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.addressTypeHeader {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.addressTypeOptions {
+  display: flex;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.addressTypeOptions>button.addressTypeOptionActive {
+  background-color: black;
+  color: white;
+}
+
+.addressTypeOptions>button {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 16px 40px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+div.addressTypeAsDefault>div.MuiFormControlLabel-root span.MuiTypography-root {
+  font-size: 14px !important;
+}
+
+.newOfficeHeader {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  align-items: center;
+}
+
+.newOfficeHeaderIcon {
+  background-color: #15223f;
+  border-radius: 50%;
+  padding: 3px;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.newOfficeHeaderTitles>h3 {
+  font-family: system-ui;
+  font-weight: lighter;
+}
+
+.newOfficeHeaderTitles>span {
+  font-size: 0.75rem;
+}
+
+.captureInput label {
+  border: 1px solid #98A0B3;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.captureInput span {
+  font-size: 0.875rem;
+}
+
+.captureInput svg {
+  color: #15223f;
+  font-size: 18px;
+}

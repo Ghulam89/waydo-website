@@ -1,0 +1,246 @@
+.item {
+    padding: 16px;
+    border-bottom: 1px solid rgb(224, 225, 227);
+    background-color: unset;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-self: stretch;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 112px;
+    height: 88px;
+    border-radius: 8px;
+    border: 1px solid rgb(247, 247, 248);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 10px 0px, rgba(0, 0, 0, 0.07) 0px 4px 5px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px -1px;
+    object-fit: cover;
+}
+
+.boxInfo {
+    width: 100%;
+    justify-content: unset;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    flex: 1 0 0px;
+    align-self: stretch;
+    overflow: hidden;
+}
+
+.boxTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-self: stretch;
+    position: relative;
+    cursor: pointer;
+}
+
+.title {
+    max-width: 225px;
+    white-space: nowrap;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: rgb(23, 25, 28);
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.boxDefault {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 6px;
+    border-radius: 100px;
+    background-color: #0F154B;
+    width: max-content;
+}
+
+.boxTitle>h6 {
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: rgb(23, 25, 28);
+}
+
+.boxDefault>span {
+    margin: 0px;
+    letter-spacing: 0.4px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    line-height: 1.66;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.count {
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: rgb(70, 76, 85);
+}
+
+.boxPeople {
+    width: 20px;
+    height: 20px;
+    box-sizing: content-box;
+    border: 0px;
+}
+
+.boxCollaborator {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.boxCollaborator>img {
+    width: 20px;
+    height: 20px;
+    box-sizing: content-box;
+    border: 0px;
+}
+
+.boxCollaborator>p {
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxButton {
+    display: flex;
+    gap: 8px;
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.boxButton>button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.54);
+    box-shadow: none;
+    outline: 0px;
+    margin: 0px;
+    text-decoration: none;
+    flex: 0 0 auto;
+    overflow: visible;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 4px;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-image: initial;
+    border-color: transparent;
+    text-transform: none;
+}
+
+.boxButton>button:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.boxButton>button>img {
+    width: 24px;
+    height: 24px;
+}
+
+.boxList {
+    background-color: rgb(255, 255, 255);
+    color: rgb(35, 38, 42);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px -3px, rgba(0, 0, 0, 0.07) 0px 8px 10px 1px, rgba(0, 0, 0, 0.06) 0px 3px 14px 2px;
+    min-width: 16px;
+    min-height: 16px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 6px;
+    outline: 0px;
+}
+
+
+.boxList>ul {
+    list-style: none;
+    margin: 0px;
+    padding: 8px 0px;
+    position: relative;
+    outline: 0px;
+}
+
+.boxList>ul>li {
+    background-color: transparent;
+    outline: 0px;
+    border-width: 0px 0px 1px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    margin: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    color: inherit;
+    letter-spacing: 0px;
+    font-family: proxima-nova, ProximaNova, noto, var(--my-gess), GESS, GE-SS, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    min-height: 48px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+    background-clip: padding-box;
+}
+
+.boxList>ul>li:last-child {
+    border-bottom: none;
+}

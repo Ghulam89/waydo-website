@@ -1,0 +1,32 @@
+.transactionItem {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  display: flex;
+  padding: 5px 16px;
+  gap: 20px;
+}
+
+.transactionTypeAndDate {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.amountAndTransaction {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.amountAndTransaction>h3 {
+  font-weight: 400;
+}
+
+.amountAndTransaction>span,
+.transactionTypeAndDate>span:last-child {
+  font-size: .7rem;
+  color: #929292;
+}

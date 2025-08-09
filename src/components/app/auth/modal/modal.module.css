@@ -1,0 +1,27 @@
+.box {
+    background-color: white;
+    padding: 50px 75px;
+    border-radius: 28px;
+    overflow: hidden;
+    max-height: 90vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.boxClose {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+@media (max-height: 745px) {
+    .box {
+        padding: 25px 40px;
+        border-radius: 12px;
+    }
+}

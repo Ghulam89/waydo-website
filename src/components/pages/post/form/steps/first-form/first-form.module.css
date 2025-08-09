@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20.5px;
+}
+
+.none {
+    display: none;
+}
+
+.box {
+    max-width: 480px;
+    width: 100%;
+}
+
+.title {
+    padding-bottom: 46px;
+    text-align: center;
+    color: #15223F;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.contentButton {
+    padding: 0 7px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.doubt {
+    text-align: center;
+    padding-top: 21px;
+}
+
+.doubt>a {
+    color: #0033FF;
+    font-size: .8em;
+}

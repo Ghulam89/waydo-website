@@ -1,0 +1,52 @@
+import { MAX_PRICE_FILER, MIN_PRICE_FILTER } from "@utils/filter"
+import { AvanceFilterI, FilterSliceI } from "./filter.interface"
+
+export const dataAvanceFilter: AvanceFilterI = {
+	bodies: [],
+	statusCar: [],
+	colorsExterior: [],
+	colorsInterior: [],
+	fuels: [],
+	cylinders: [],
+	horsepowers: [],
+	batteryCapacities: [],
+	chargingTime: [],
+	autonomies: [],
+	transmissions: [],
+	drivetrains: [],
+	doors: [],
+	seatings: [],
+	softTopType: [],
+	cabinType: [],
+	typeUse: [],
+	heavyVehicles: [],
+	truckTypes: [],
+	extras: [],
+	sellers: [],
+	date: [],
+	priceGte: 0,
+	priceLte: 0,
+}
+
+export const filterDataInitial: FilterSliceI = {
+	...dataAvanceFilter,
+	search: "",
+	sort: { data: [], key: "default", label: "Predeterminado" },
+	brandUUID: "",
+	brandSlug: "",
+	brandName: "",
+	modelUUID: "",
+	modelSlug: "",
+	modelName: "",
+	versionUUID: "",
+	versionSlug: "",
+	versionName: "",
+	yearGte: null,
+	yearLte: null,
+	filterFormatted: {},
+	avanceFilterState: {
+		...dataAvanceFilter,
+		priceGte: MAX_PRICE_FILER,
+		priceLte: MIN_PRICE_FILTER,
+	},
+}

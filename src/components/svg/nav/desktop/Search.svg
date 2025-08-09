@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="41" viewBox="0 0 70 41">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_576" data-name="Rectángulo 576" width="18" height="17.5" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_512" data-name="Grupo 512" transform="translate(0.68)">
+    <g id="my-searches" transform="translate(25)" clip-path="url(#clip-path)">
+      <path id="Trazado_213" data-name="Trazado 213" d="M13.127,9.212v5.009L8.7,12.009,4.275,14.222V3.952H6.5A3.465,3.465,0,0,1,6.618,3.3a4.74,4.74,0,0,1,.239-.728H4.275A1.479,1.479,0,0,0,2.8,4.05V14.375c0,.811,0,1.844,1.475,1.475L8.7,13.637l4.426,2.212c1.475.369,1.475-.664,1.475-1.475V10.687Zm.959-3.031a3.314,3.314,0,1,0-2.81,1.556,3.271,3.271,0,0,0,1.763-.516L14.817,9a.74.74,0,1,0,1.046-1.047Zm-2.8.081a1.844,1.844,0,1,1,1.844-1.844A1.845,1.845,0,0,1,11.283,6.262Z" transform="translate(-0.295 -0.018)"/>
+    </g>
+    <text id="Búsquedas" transform="translate(34.32 37)"><tspan x="-34" y="0">Búsquedas</tspan></text>
+  </g>
+</svg>

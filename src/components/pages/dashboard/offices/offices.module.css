@@ -1,0 +1,31 @@
+.officesContainer {
+  padding: 0 25px;
+}
+
+.officesContainer .header {
+  padding: 16px 40px;
+  max-height: 40px;
+  display: flex;
+  border-bottom: 1px solid #dbe5ed;
+}
+
+.officesContainer .header>div {
+  gap: 20px;
+  display: inherit;
+}
+
+.officesContainer .content {
+  padding: 20px 40px;
+}
+
+.officesList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.officesContainer .footer {
+  border-top: 1px solid #DBE5ED;
+  margin-top: 20px;
+  padding: 30px 0;
+}

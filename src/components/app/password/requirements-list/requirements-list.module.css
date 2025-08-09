@@ -1,0 +1,28 @@
+.ul {
+    padding: 10px 35px 0 35px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    font-family: proxima-nova, ProximaNova, GESS, GE-SS, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 12px;
+}
+
+.boxIcon {
+    padding-right: 15px;
+    font-size: .9em;
+}
+
+.boxIconInvalid {
+    color: var(--primary-color);
+}
+
+.boxIconValid {
+    color: rgb(13, 189, 13);
+}
+
+.span {
+    color: rgba(0, 0, 0, .6);
+}

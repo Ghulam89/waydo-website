@@ -32,14 +32,28 @@ import { insertByCondition } from '@utils/object/object.util';
 import { useRouter } from 'next/navigation';
 
 // Mock data interfaces
+interface MockCarBrand {
+  id?: number;
+  name: string;
+  slug: string;
+  // Add other properties as needed by CarBrandI
+}
+
+interface MockCarModel {
+  id?: number;
+  name: string;
+  slug: string;
+  // Add other properties as needed by your actual model interface
+}
+
 interface MockPost {
   id: number;
   title: string;
   price: number;
   car: {
     mileage: number;
-    brand: string;
-    model: string;
+    brand: MockCarBrand;
+    model: MockCarModel;
     year: number;
   };
   createdAt: string;
@@ -69,8 +83,16 @@ const MOCK_POSTS: MockPost[] = [
     price: 18000,
     car: {
       mileage: 25000,
-      brand: 'Toyota',
-      model: 'Corolla',
+      brand: {
+        id: 1,
+        name: 'Toyota',
+        slug: 'toyota'
+      },
+      model: {
+        id: 1,
+        name: 'Corolla',
+        slug: 'corolla'
+      },
       year: 2020
     },
     createdAt: '2023-05-15T10:30:00Z'
@@ -81,8 +103,16 @@ const MOCK_POSTS: MockPost[] = [
     price: 15000,
     car: {
       mileage: 35000,
-      brand: 'Honda',
-      model: 'Civic',
+      brand: {
+        id: 2,
+        name: 'Honda',
+        slug: 'honda'
+      },
+      model: {
+        id: 2,
+        name: 'Civic',
+        slug: 'civic'
+      },
       year: 2018
     },
     createdAt: '2023-04-20T14:15:00Z'
@@ -93,8 +123,16 @@ const MOCK_POSTS: MockPost[] = [
     price: 32000,
     car: {
       mileage: 12000,
-      brand: 'Ford',
-      model: 'Mustang',
+      brand: {
+        id: 3,
+        name: 'Ford',
+        slug: 'ford'
+      },
+      model: {
+        id: 3,
+        name: 'Mustang',
+        slug: 'mustang'
+      },
       year: 2021
     },
     createdAt: '2023-06-10T09:45:00Z'
@@ -269,9 +307,9 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
     }, [ref, mockDataEnabled])
 
     const filterList = useMemo(() => {
-        return Array.from(testResCountPostListFilter || []).map((item) => {
+        return (testResCountPostListFilter || []).map((item) => {
             return {
-                label: (!filters.brandSlug ? item.brandName : filters.brandSlug && filters.modelSlug ? `${filters.brandName} ${filters.modelName}` : item.modelName) as string,
+                label: (!filters.brandSlug ? item.brandName : filters.brandSlug && filters.modelSlug ? `${item.brandName} ${item.modelName}` : item.modelName) as string,
                 subLabel: `(${filters.brandSlug && filters.modelSlug ? item.year : item.totalPost})`,
                 value: (!filters.brandSlug ? item.brandSlug : filters.brandSlug && filters.modelSlug ? item.year : item.modelSlug) as string
             }
